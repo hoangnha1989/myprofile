@@ -1,0 +1,8 @@
+{
+ "first": ["first"], "signs": ["signs"], "many": ["many"], "accounts": ["accounts"], "screen": ["screen"],
+ "agent": ["agent"], "network": ["network"], "all": ["all"], "trained": ["trained"], "reply": ["reply"], "real": ["real"],
+ "day": ["day"], "any": ["any"], "nocand": {"w": ["no"], "nth": 0}, "contacted": ["contacted"], "twice": ["twice"],
+ "purpose": ["purpose"], "missed": ["missed"], "waiting": ["waiting"], "one": ["one"], "team": ["team"],
+ "app": ["app"], "agent2": {"w": ["agent"], "nth": 1}, "no2": {"w": ["no"], "nth": 1}, "kept": ["kept"],
+ "reaches": ["reaches"], "whole": ["whole"], "ai": ["ai"]
+}

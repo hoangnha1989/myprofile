@@ -1,0 +1,16 @@
+{
+ "balance": ["balance"],
+ "ai": ["a", "ai"],
+ "volume": ["volume"],
+ "missed": ["missed"],
+ "judgment": ["judgment"],
+ "face": ["face", "facetoface"],
+ "right": ["right"],
+ "together": ["together"],
+ "senior": ["senior"],
+ "stay": ["stay"],
+ "grow": ["grow"],
+ "glad": ["glad"],
+ "talk": ["talk"],
+ "next": ["next"]
+}

@@ -1,0 +1,2355 @@
+{
+ "project": "nha_personal_brand",
+ "version": 1,
+ "fps": 60,
+ "duration": 270.683,
+ "warp": 1.2,
+ "clock": "render/final_vo.wav",
+ "video_segments": [
+  {
+   "id": "s01",
+   "t": [
+    0.0,
+    13.1
+   ],
+   "frames": [
+    0,
+    785
+   ],
+   "vo_line": "L01",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s01",
+    "range": [
+     0.0,
+     13.1
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "t": [
+    13.1,
+    21.475
+   ],
+   "frames": [
+    786,
+    1287
+   ],
+   "vo_line": "L02",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s02",
+    "range": [
+     13.1,
+     21.475
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "t": [
+    21.475,
+    47.317
+   ],
+   "frames": [
+    1288,
+    2838
+   ],
+   "vo_line": "L03",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s03",
+    "range": [
+     21.475,
+     47.317
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "t": [
+    47.317,
+    64.775
+   ],
+   "frames": [
+    2839,
+    3886
+   ],
+   "vo_line": "L04",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s04",
+    "range": [
+     47.317,
+     64.775
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "t": [
+    64.775,
+    93.35
+   ],
+   "frames": [
+    3887,
+    5600
+   ],
+   "vo_line": "L05",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s05",
+    "range": [
+     64.775,
+     93.35
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "t": [
+    93.35,
+    110.008
+   ],
+   "frames": [
+    5601,
+    6599
+   ],
+   "vo_line": "L06",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s06",
+    "range": [
+     93.35,
+     110.008
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "t": [
+    110.008,
+    128.833
+   ],
+   "frames": [
+    6600,
+    7729
+   ],
+   "vo_line": "L07",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s07",
+    "range": [
+     110.008,
+     128.833
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "t": [
+    128.833,
+    151.208
+   ],
+   "frames": [
+    7730,
+    9071
+   ],
+   "vo_line": "L08",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s08",
+    "range": [
+     128.833,
+     151.208
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "t": [
+    151.208,
+    172.692
+   ],
+   "frames": [
+    9072,
+    10361
+   ],
+   "vo_line": "L09",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s09",
+    "range": [
+     151.208,
+     172.692
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "t": [
+    172.692,
+    196.567
+   ],
+   "frames": [
+    10362,
+    11793
+   ],
+   "vo_line": "L10",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s10",
+    "range": [
+     172.692,
+     196.567
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "t": [
+    196.567,
+    224.683
+   ],
+   "frames": [
+    11794,
+    13480
+   ],
+   "vo_line": "L11",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s11",
+    "range": [
+     196.567,
+     224.683
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "t": [
+    224.683,
+    250.817
+   ],
+   "frames": [
+    13481,
+    15048
+   ],
+   "vo_line": "L12",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s12",
+    "range": [
+     224.683,
+     250.817
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "t": [
+    250.817,
+    270.683
+   ],
+   "frames": [
+    15049,
+    16240
+   ],
+   "vo_line": "L13",
+   "source": {
+    "kind": "hyperframes",
+    "composition": "hf/index.html",
+    "scene": "s13",
+    "range": [
+     250.817,
+     270.683
+    ]
+   }
+  }
+ ],
+ "audio_tracks": {
+  "vo": [
+   {
+    "id": "L01",
+    "line": "L01",
+    "t": 1.333,
+    "dur": 10.517,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L01c0_q7",
+      "L01c1_q4"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L02",
+    "line": "L02",
+    "t": 14.017,
+    "dur": 6.208,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L02c0_q8"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L03",
+    "line": "L03",
+    "t": 22.392,
+    "dur": 23.675,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L03c0_q7",
+      "L03c1_q6",
+      "L03c2_q3"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L04",
+    "line": "L04",
+    "t": 48.233,
+    "dur": 15.292,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L04c0_q1",
+      "L04c1_q4",
+      "L04c2_q6"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L05",
+    "line": "L05",
+    "t": 65.692,
+    "dur": 26.408,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L05c0_q6",
+      "L05c1_q8",
+      "L05c2_q3",
+      "L05c3_q6"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L06",
+    "line": "L06",
+    "t": 94.267,
+    "dur": 14.492,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L06c0_q5",
+      "L06c1_q9"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L07",
+    "line": "L07",
+    "t": 110.925,
+    "dur": 16.658,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L07c0_q5",
+      "L07c1_q6"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L08",
+    "line": "L08",
+    "t": 129.75,
+    "dur": 20.208,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L08c0_q1",
+      "L08c1_q6",
+      "L08c2_q6"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L09",
+    "line": "L09",
+    "t": 152.125,
+    "dur": 19.317,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L09c0_q4",
+      "L09c1_q5",
+      "L09c2_q1"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L10",
+    "line": "L10",
+    "t": 173.608,
+    "dur": 21.708,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L10c0_q2",
+      "L10c1_q8",
+      "L10c2_q5"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L11",
+    "line": "L11",
+    "t": 197.483,
+    "dur": 25.95,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L11c0_q1",
+      "L11c1_q6",
+      "L11c2_q3",
+      "L11c3_q3",
+      "L11c4_q2"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L12",
+    "line": "L12",
+    "t": 225.6,
+    "dur": 23.967,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L12c0_q6",
+      "L12c1_q3",
+      "L12c2_q2",
+      "L12c3_q9"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   },
+   {
+    "id": "L13",
+    "line": "L13",
+    "t": 251.733,
+    "dur": 15.617,
+    "file": "render/final_vo_fast.wav",
+    "gen": {
+     "engine": "Qwen3-TTS clone",
+     "spec": "work/vo_spec.json",
+     "takes": [
+      "L13c0_q3",
+      "L13c1_q10",
+      "L13c2_q2"
+     ],
+     "ref": "voice/design_dfn/_ref_M6.wav"
+    }
+   }
+  ],
+  "music": [
+   {
+    "id": "bed",
+    "t": 0,
+    "dur": 270.683,
+    "file": "render/music_bed.wav",
+    "src": "library/music/Business music/mus_biz_modern_tech_saas.mp3"
+   }
+  ],
+  "sfx": [
+   {
+    "id": "sfx001",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 1.167,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx002",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 3.742,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx003",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 5.617,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx004",
+    "kind": "type",
+    "file": "work/sfx/type.wav",
+    "t": 5.617,
+    "gain_db": -40,
+    "ref": ""
+   },
+   {
+    "id": "sfx005",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 6.033,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx006",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 7.1,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx007",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 7.767,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx008",
+    "kind": "type",
+    "file": "work/sfx/type.wav",
+    "t": 10.533,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx009",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 11.5,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx010",
+    "kind": "type",
+    "file": "work/sfx/type.wav",
+    "t": 14.967,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx011",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 15.483,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx012",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 15.667,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx013",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 17.004,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx014",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 17.05,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx015",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 18.55,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx016",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 19.167,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx017",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 19.567,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx018",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 24.417,
+    "gain_db": -34,
+    "ref": ""
+   },
+   {
+    "id": "sfx019",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 25.067,
+    "gain_db": -34,
+    "ref": ""
+   },
+   {
+    "id": "sfx020",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 26.25,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx021",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 28.392,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx022",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 29.825,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx023",
+    "kind": "whoosh",
+    "file": "work/sfx/whoosh_long.wav",
+    "t": 30.525,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx024",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 31.192,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx025",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 32.892,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx026",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 33.708,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx027",
+    "kind": "whoosh",
+    "file": "work/sfx/whoosh_long.wav",
+    "t": 34.2,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx028",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 34.825,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx029",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 36.042,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx030",
+    "kind": "whoosh",
+    "file": "work/sfx/whoosh_long.wav",
+    "t": 36.933,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx031",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 37.517,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx032",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 39.392,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx033",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 42.133,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx034",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 43.217,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx035",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 43.85,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx036",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 44.933,
+    "gain_db": -29,
+    "ref": ""
+   },
+   {
+    "id": "sfx037",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 46.1,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx038",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 47.358,
+    "gain_db": -34,
+    "ref": ""
+   },
+   {
+    "id": "sfx039",
+    "kind": "type",
+    "file": "work/sfx/type.wav",
+    "t": 49.4,
+    "gain_db": -38,
+    "ref": ""
+   },
+   {
+    "id": "sfx040",
+    "kind": "idea",
+    "file": "work/sfx/idea_ding.wav",
+    "t": 49.733,
+    "gain_db": -24,
+    "ref": ""
+   },
+   {
+    "id": "sfx041",
+    "kind": "whoosh",
+    "file": "work/sfx/whoosh_long.wav",
+    "t": 51.067,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx042",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 51.875,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx043",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 53.05,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx044",
+    "kind": "type",
+    "file": "work/sfx/type.wav",
+    "t": 53.783,
+    "gain_db": -38,
+    "ref": ""
+   },
+   {
+    "id": "sfx045",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 53.95,
+    "gain_db": -34,
+    "ref": ""
+   },
+   {
+    "id": "sfx046",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 56.092,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx047",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 57.15,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx048",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 58.167,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx049",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 58.683,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx050",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 60.533,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx051",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 61.358,
+    "gain_db": -34,
+    "ref": ""
+   },
+   {
+    "id": "sfx052",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 62.917,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx053",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 66.775,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx054",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 69.583,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx055",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 70.083,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx056",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 70.958,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx057",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 72.617,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx058",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 73.375,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx059",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 73.708,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx060",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 74.333,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx061",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 76.083,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx062",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 77.042,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx063",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 77.142,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx064",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 78.65,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx065",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 79.35,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx066",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 82.333,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx067",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 83.067,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx068",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 83.35,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx069",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 85.167,
+    "gain_db": -25,
+    "ref": ""
+   },
+   {
+    "id": "sfx070",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 86.275,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx071",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 86.792,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx072",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 87.692,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx073",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 88.392,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx074",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 91.083,
+    "gain_db": -25,
+    "ref": ""
+   },
+   {
+    "id": "sfx075",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 94.25,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx076",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 95.583,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx077",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 95.798,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx078",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 96.013,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx079",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 96.228,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx080",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 96.443,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx081",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 96.658,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx082",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 99.092,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx083",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 99.758,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx084",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 100.425,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx085",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 101.167,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx086",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 102.733,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx087",
+    "kind": "riser",
+    "file": "work/sfx/riser.wav",
+    "t": 103.767,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx088",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 104.917,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx089",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 107.75,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx090",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 109.958,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx091",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 113.483,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx092",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 114.25,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx093",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 115.267,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx094",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 115.8,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx095",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 116.225,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx096",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 117.15,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx097",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 117.35,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx098",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 117.567,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx099",
+    "kind": "whoosh",
+    "file": "work/sfx/whoosh_long.wav",
+    "t": 118.933,
+    "gain_db": -20,
+    "ref": ""
+   },
+   {
+    "id": "sfx100",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 119.208,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx101",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 119.433,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx102",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 120.842,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx103",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 121,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx104",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 122.5,
+    "gain_db": -25,
+    "ref": ""
+   },
+   {
+    "id": "sfx105",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 122.533,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx106",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 123.542,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx107",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 124.333,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx108",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 125.283,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx109",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 126.917,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx110",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 131.717,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx111",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 132.833,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx112",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 133.133,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx113",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 133.233,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx114",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 134.45,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx115",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 134.7,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx116",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 136.117,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx117",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 136.283,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx118",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 137.883,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx119",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 139.3,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx120",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 139.55,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx121",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 139.967,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx122",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 140.267,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx123",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 140.383,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx124",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 140.8,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx125",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 142.592,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx126",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 142.883,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx127",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 144.3,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx128",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 146.233,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx129",
+    "kind": "whoosh",
+    "file": "work/sfx/whoosh_long.wav",
+    "t": 149.225,
+    "gain_db": -20,
+    "ref": ""
+   },
+   {
+    "id": "sfx130",
+    "kind": "type",
+    "file": "work/sfx/type.wav",
+    "t": 151.625,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx131",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 151.658,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx132",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 151.992,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx133",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 152.325,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx134",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 152.658,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx135",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 153.533,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx136",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 154.417,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx137",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 156.342,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx138",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 157.625,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx139",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 159.142,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx140",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 159.242,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx141",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 160.392,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx142",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 161.35,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx143",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 161.6,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx144",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 162.242,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx145",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 163.158,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx146",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 164.575,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx147",
+    "kind": "riser",
+    "file": "work/sfx/riser.wav",
+    "t": 166.625,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx148",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 168.483,
+    "gain_db": -21,
+    "ref": ""
+   },
+   {
+    "id": "sfx149",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 168.9,
+    "gain_db": -23,
+    "ref": ""
+   },
+   {
+    "id": "sfx150",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 170.067,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx151",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 171.042,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx152",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 172.9,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx153",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 175.5,
+    "gain_db": -29,
+    "ref": ""
+   },
+   {
+    "id": "sfx154",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 177.017,
+    "gain_db": -29,
+    "ref": ""
+   },
+   {
+    "id": "sfx155",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 178.192,
+    "gain_db": -29,
+    "ref": ""
+   },
+   {
+    "id": "sfx156",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 178.317,
+    "gain_db": -25,
+    "ref": ""
+   },
+   {
+    "id": "sfx157",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 179.025,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx158",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 179.583,
+    "gain_db": -29,
+    "ref": ""
+   },
+   {
+    "id": "sfx159",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 179.792,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx160",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 180.758,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx161",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 180.8,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx162",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 181.458,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx163",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 181.967,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx164",
+    "kind": "whoosh",
+    "file": "work/sfx/whoosh_long.wav",
+    "t": 183.283,
+    "gain_db": -20,
+    "ref": ""
+   },
+   {
+    "id": "sfx165",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 183.658,
+    "gain_db": -25,
+    "ref": ""
+   },
+   {
+    "id": "sfx166",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 184.492,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx167",
+    "kind": "riser",
+    "file": "work/sfx/riser.wav",
+    "t": 185.075,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx168",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 185.783,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx169",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 186.583,
+    "gain_db": -29,
+    "ref": ""
+   },
+   {
+    "id": "sfx170",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 187.8,
+    "gain_db": -29,
+    "ref": ""
+   },
+   {
+    "id": "sfx171",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 190,
+    "gain_db": -29,
+    "ref": ""
+   },
+   {
+    "id": "sfx172",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 191.817,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx173",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 194.083,
+    "gain_db": -21,
+    "ref": ""
+   },
+   {
+    "id": "sfx174",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 196.608,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx175",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 198.6,
+    "gain_db": -37,
+    "ref": ""
+   },
+   {
+    "id": "sfx176",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 198.833,
+    "gain_db": -37,
+    "ref": ""
+   },
+   {
+    "id": "sfx177",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 199.067,
+    "gain_db": -37,
+    "ref": ""
+   },
+   {
+    "id": "sfx178",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 199.592,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx179",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 199.992,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx180",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 200.8,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx181",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 201.55,
+    "gain_db": -34,
+    "ref": ""
+   },
+   {
+    "id": "sfx182",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 202.05,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx183",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 203.867,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx184",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 206.675,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx185",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 207.4,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx186",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 207.717,
+    "gain_db": -34,
+    "ref": ""
+   },
+   {
+    "id": "sfx187",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 207.717,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx188",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 208.967,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx189",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 209.175,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx190",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 210.45,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx191",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 211.5,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx192",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 213.75,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx193",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 213.817,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx194",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 214.9,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx195",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 215.542,
+    "gain_db": -31,
+    "ref": ""
+   },
+   {
+    "id": "sfx196",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 216.542,
+    "gain_db": -30,
+    "ref": ""
+   },
+   {
+    "id": "sfx197",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 217.25,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx198",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 218.092,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx199",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 218.8,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx200",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 219.483,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx201",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 219.525,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx202",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 221.592,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx203",
+    "kind": "type",
+    "file": "work/sfx/type.wav",
+    "t": 225.267,
+    "gain_db": -38,
+    "ref": ""
+   },
+   {
+    "id": "sfx204",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 227.858,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx205",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 230.925,
+    "gain_db": -35,
+    "ref": ""
+   },
+   {
+    "id": "sfx206",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 232.375,
+    "gain_db": -36,
+    "ref": ""
+   },
+   {
+    "id": "sfx207",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 235.933,
+    "gain_db": -36,
+    "ref": ""
+   },
+   {
+    "id": "sfx208",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 237.067,
+    "gain_db": -36,
+    "ref": ""
+   },
+   {
+    "id": "sfx209",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 238.233,
+    "gain_db": -36,
+    "ref": ""
+   },
+   {
+    "id": "sfx210",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 239.992,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx211",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 241.558,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx212",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 243.983,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx213",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 244.425,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx214",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 244.658,
+    "gain_db": -33,
+    "ref": ""
+   },
+   {
+    "id": "sfx215",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 247.975,
+    "gain_db": -26,
+    "ref": ""
+   },
+   {
+    "id": "sfx216",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 251.975,
+    "gain_db": -32,
+    "ref": ""
+   },
+   {
+    "id": "sfx217",
+    "kind": "shimmer",
+    "file": "work/sfx/shimmer.wav",
+    "t": 253.575,
+    "gain_db": -34,
+    "ref": ""
+   },
+   {
+    "id": "sfx218",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 254.625,
+    "gain_db": -36,
+    "ref": ""
+   },
+   {
+    "id": "sfx219",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 256.442,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx220",
+    "kind": "whoosh-soft",
+    "file": "work/sfx/whoosh_soft.wav",
+    "t": 256.933,
+    "gain_db": -28,
+    "ref": ""
+   },
+   {
+    "id": "sfx221",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 257.517,
+    "gain_db": -36,
+    "ref": ""
+   },
+   {
+    "id": "sfx222",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 258.358,
+    "gain_db": -38,
+    "ref": ""
+   },
+   {
+    "id": "sfx223",
+    "kind": "tick",
+    "file": "work/sfx/tick.wav",
+    "t": 260.292,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx224",
+    "kind": "whoosh",
+    "file": "work/sfx/whoosh_long.wav",
+    "t": 260.992,
+    "gain_db": -24,
+    "ref": ""
+   },
+   {
+    "id": "sfx225",
+    "kind": "bloom",
+    "file": "work/sfx/bloom_swell.wav",
+    "t": 261.325,
+    "gain_db": -22,
+    "ref": ""
+   },
+   {
+    "id": "sfx226",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 261.867,
+    "gain_db": -36,
+    "ref": ""
+   },
+   {
+    "id": "sfx227",
+    "kind": "impact",
+    "file": "work/sfx/impact_soft.wav",
+    "t": 265.308,
+    "gain_db": -27,
+    "ref": ""
+   },
+   {
+    "id": "sfx228",
+    "kind": "pop",
+    "file": "work/sfx/pop.wav",
+    "t": 265.642,
+    "gain_db": -34,
+    "ref": ""
+   }
+  ]
+ },
+ "title_track": {
+  "titles": []
+ },
+ "mix": {
+  "master": "render/final_mix.wav",
+  "recipe": "python work/mix.py; remux -c:v copy"
+ },
+ "changelog": [
+  {
+   "v": 1,
+   "note": "first build from locked storyboard v2.4"
+  }
+ ]
+}

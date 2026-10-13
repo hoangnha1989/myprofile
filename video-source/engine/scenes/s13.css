@@ -1,0 +1,51 @@
+#s13 .s13-amb { position:absolute; inset:0; background:radial-gradient(1400px 900px at 50% 40%, #F8FAFC 0%, #FFFFFF 70%); }
+#s13 .s13-hl { position:absolute; left:160px; top:120px; width:1600px; text-align:center; font-size:64px; white-space:nowrap; color:var(--ink); }
+#s13 .s13-hl .line { padding-bottom:6px; }
+#s13 .s13-div { position:absolute; left:959px; top:260px; width:2px; height:480px; transform-origin:50% 50%;
+  background:linear-gradient(180deg, rgba(203,213,225,0), var(--line2) 20%, var(--line2) 80%, rgba(203,213,225,0)); }
+/* the balance: a gold card (1120 x 460, centred on x = 960) holding a scale; L plates on a level bar over an orange pivot */
+#s13 .s13-bcard { position:absolute; left:400px; top:250px; width:1120px; height:460px; transform-origin:50% 50%; }
+#s13 .s13-beam { position:absolute; left:120px; top:116px; width:880px; height:168px; transform-origin:50% 50%; }
+#s13 .s13-beam .bl { position:absolute; left:168px; right:168px; top:80px; height:8px; border-radius:4px; background:var(--g-blue); transform-origin:50% 50%; }
+/* scaled about the beam centre (560, 200 in the card), so pivot and beam stay joined while the card reshapes */
+#s13 .s13-ful { position:absolute; left:440px; top:188px; width:240px; height:160px; z-index:2; transform-origin:120px 12px; }
+#s13 .s13-ful .pv { position:absolute; left:0; top:0; filter:drop-shadow(0 10px 14px rgba(221,100,23,.28)) drop-shadow(0 2px 3px rgba(30,41,59,.12)); }
+#s13 .s13-ful .d { position:absolute; left:110px; top:2px; width:20px; height:20px; border-radius:50%; background:var(--acc2);
+  box-shadow:0 0 0 4px #FFFFFF, 0 4px 12px rgba(221,100,23,.4); }
+#s13 .s13-ful .pr { position:absolute; left:106px; top:-2px; width:28px; height:28px; border-radius:50%; border:2px solid var(--acc2); opacity:0; }
+/* two equal gold cards, symmetric around x = 960 */
+#s13 .s13-card { position:absolute; top:220px; width:680px; height:560px; transform-origin:50% 50%; }
+#s13 .s13-card.l { left:180px; }
+#s13 .s13-card.r { left:1060px; }
+#s13 .s13-ct { position:absolute; left:148px; top:60px; width:500px; font-size:36px; color:var(--ink); white-space:nowrap; }
+#s13 .s13-net { position:absolute; left:40px; top:160px; }
+#s13 .s13-scan { position:absolute; left:38px; top:160px; width:4px; height:300px; border-radius:2px; opacity:0;
+  background:linear-gradient(180deg, rgba(37,161,219,0), var(--acc), rgba(37,161,219,0)); box-shadow:0 0 16px rgba(37,161,219,.45); }
+#s13 .s13-chw { position:absolute; left:0; top:496px; width:680px; text-align:center; }
+#s13 .s13-chw .chip { position:relative; display:inline-flex; align-items:center; gap:10px; font-size:22px; height:46px; padding:0 22px; border-radius:23px;
+  letter-spacing:.04em; text-transform:uppercase; }
+#s13 .s13-ring { position:absolute; left:286px; top:350px; width:108px; height:108px; border-radius:26px; border:2.5px solid var(--acc2); opacity:0; }
+/* the chosen candidate: a clearly orange plate with a warm glow */
+#s13 #s13-pick { --fx-pt:#FFC9A0; --fx-pl1:#F9A86C; --fx-pl2:#EE8A45; --fx-psh:rgba(221,100,23,.30); }
+#s13 #s13-pick .fx-plate-face { background:linear-gradient(165deg, #FFD2AE 0%, #FFE6D2 56%, #FFD8BC 100%) padding-box, linear-gradient(165deg, #F9A15E, #DD6417) border-box;
+  border-width:2.5px; }
+#s13 #s13-pick .fx-plate-lip { box-shadow:0 0 0 3px rgba(244,126,42,.28), 0 10px 26px -4px rgba(244,126,42,.55), 0 20px 36px -14px rgba(221,100,23,.45); }
+/* the merged mark: a short beam joins the two plates through the point */
+#s13 .s13-link { position:absolute; left:852px; top:408px; width:216px; height:4px; border-radius:2px; background:var(--g-blue); transform-origin:50% 50%; }
+/* the convergence point and the result */
+#s13 .s13-core { position:absolute; left:930px; top:380px; width:60px; height:60px; }
+#s13 .s13-core .dot { position:absolute; left:16px; top:16px; width:28px; height:28px; border-radius:50%; background:var(--g-blue);
+  box-shadow:0 0 0 6px #FFFFFF, 0 0 0 7.5px rgba(37,161,219,.35), 0 6px 22px rgba(27,127,176,.35); }
+#s13 .s13-core .halo { position:absolute; left:-370px; top:-370px; width:800px; height:800px; border-radius:50%;
+  background:radial-gradient(closest-side, rgba(37,161,219,.12), rgba(37,161,219,.05) 55%, rgba(37,161,219,0)); }
+#s13 .s13-core .rg { position:absolute; left:-40px; top:-40px; width:140px; height:140px; border-radius:50%; border:2px solid var(--acc); opacity:0; }
+#s13 .s13-sen { position:absolute; left:160px; top:566px; width:1600px; text-align:center; font-size:64px; color:var(--ink); }
+#s13 .s13-name { position:absolute; left:160px; top:300px; width:1600px; text-align:center; font-size:104px; color:var(--ink); }
+#s13 .s13-rule { position:absolute; left:900px; top:442px; width:120px; height:4px; border-radius:2px; background:var(--g-blue); transform-origin:50% 50%; }
+#s13 .s13-role { position:absolute; left:460px; top:472px; width:1000px; text-align:center; font-family:"SG"; font-weight:500; font-size:34px; letter-spacing:.04em; color:var(--body); }
+#s13 .s13-role span { display:inline-block; }
+#s13 .s13-ctc { position:absolute; left:852px; top:570px; width:216px; height:88px; }
+#s13 .s13-ctc .pr { position:absolute; top:-6px; width:100px; height:100px; border-radius:22px; border:2px solid var(--acc); opacity:0; }
+#s13 .s13-ctc .pr.p0 { left:-6px; }
+#s13 .s13-ctc .pr.p1 { left:122px; }
+.s13-end { position:absolute; inset:0; background:#FFFFFF; }

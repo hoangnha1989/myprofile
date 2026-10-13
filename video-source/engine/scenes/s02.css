@@ -1,0 +1,37 @@
+#s02 .s02-top, #s02 .s02-lay { position:absolute; left:0; top:0; width:1920px; height:1080px; }
+/* portrait ring (spot for the circular photo) */
+#s02 .s02-por { position:absolute; left:492px; top:160px; width:344px; height:344px; }
+#s02 .s02-por svg { position:absolute; left:0; top:0; overflow:visible; }
+#s02 .s02-por .dash { position:absolute; inset:-22px; border-radius:50%; border:2px dashed rgba(37,161,219,.40); }
+#s02 .s02-por .disc { fill:#FFFFFF; filter:drop-shadow(0 22px 34px rgba(27,127,176,.20)) drop-shadow(0 8px 12px rgba(15,23,42,.08)); }
+#s02 .s02-por .ring { fill:none; stroke:var(--acc); stroke-width:5; }
+#s02 .s02-por .s02-av { position:absolute; left:18px; top:18px; width:308px; height:308px; border-radius:50%;
+  filter:drop-shadow(0 18px 22px rgba(27,127,176,.24)) drop-shadow(0 6px 8px rgba(244,126,42,.18)); }
+#s02 .s02-por .s02-av img { position:absolute; inset:0; width:100%; height:100%; border-radius:50%; display:block; }
+#s02 .s02-por .s02-av::after { content:""; position:absolute; inset:0; border-radius:50%; box-shadow:inset 0 0 0 2px rgba(255,255,255,.85); }
+#s02 .s02-por .arc { fill:none; stroke:#F47E2A; stroke-width:5; stroke-linecap:round; }
+/* name block */
+#s02 .s02-eb { position:absolute; left:916px; top:186px; font-size:22px; }
+#s02 .s02-name { position:absolute; left:910px; top:230px; font-size:100px; white-space:nowrap; }
+#s02 .s02-name .r { display:block; white-space:nowrap; }
+#s02 .s02-name .nk { position:relative; display:inline-block; }
+#s02 .s02-name .nk .nx-ul { height:6px; bottom:4px; border-radius:3px; background:#F47E2A; }
+#s02 .s02-role { position:absolute; left:916px; top:464px; font-family:"MR"; font-weight:600; font-size:34px; color:var(--body); white-space:nowrap; }
+#s02 .s02-role em { font-style:normal; color:var(--acc3); }
+/* bottom row cards: equal size, equal gap, centred on x=960 */
+#s02 .s02-card { position:absolute; top:580px; width:620px; height:248px; }
+#s02 .s02-city { left:320px; }
+#s02 .s02-langs { left:980px; }
+#s02 .s02-city .map { position:absolute; left:32px; top:32px; width:236px; height:184px; border-radius:18px; overflow:hidden;
+  background:linear-gradient(180deg, #F3F9FD, #E9F3FA); box-shadow:inset 0 0 0 1px #D6E6F2; }
+#s02 .s02-city .map svg { position:absolute; left:0; top:0; }
+#s02 .s02-city .road { fill:none; stroke:#A9B8CB; stroke-width:2.5; stroke-linecap:round; }
+#s02 .s02-city .river { fill:none; stroke:rgba(37,161,219,.75); stroke-width:9; stroke-linecap:round; }
+#s02 .s02-city .pring { position:absolute; left:98px; top:67px; width:40px; height:40px; border-radius:50%; border:2.5px solid #E06E20; opacity:0; }
+#s02 .s02-ct { position:absolute; left:300px; top:80px; font-size:42px; white-space:nowrap; }
+#s02 .s02-lang { left:224px; width:364px; height:52px; padding:0 16px 0 6px; gap:14px; font-size:24px; border-radius:16px; }
+#s02 .s02-lang b { display:inline-flex; align-items:center; justify-content:center; width:56px; height:40px; border-radius:12px;
+  background:rgba(37,161,219,.14); color:var(--acc3); font-weight:700; font-size:22px; letter-spacing:.06em; }
+#s02 .s02-lang span { color:var(--ink); font-family:"MR"; font-weight:600; font-size:26px; }
+#s02 .s02-lang i { font-style:normal; margin-left:auto; padding:0 12px; height:34px; line-height:34px; border-radius:10px; font-size:22px; letter-spacing:.06em;
+  color:#fff; background:linear-gradient(135deg, #EE7A2C 0%, #D9631A 52%, #C2520F 100%); }

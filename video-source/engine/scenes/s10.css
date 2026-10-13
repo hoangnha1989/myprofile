@@ -1,0 +1,54 @@
+/* ===== S10 gold: centred header; left area x 128..1324 (loop card 1196; then act card + 3 KPI tiles of 376, gap 34),
+   right column x 1356..1792 (width 436, gap 24): proposals shot + radar card in phase 1, both shots in phase 2 (s10.js).
+   Phase-2 block (chip 296, act 352..488, tiles 512..744, pulse, tagline 824..888) centres in the 252..900 band. ===== */
+#s10 .s10-eb { position:absolute; left:560px; top:130px; width:800px; text-align:center; }
+#s10 .s10-hl { position:absolute; left:260px; top:168px; width:1400px; text-align:center; font-size:64px; color:var(--ink); }
+#s10 .s10-card { position:absolute; width:1196px; height:596px; }
+#s10 .s10-rcard { position:absolute; width:436px; height:438px; }
+/* loop card */
+#s10 .s10-lsvg { position:absolute; left:0; top:0; overflow:visible; }
+#s10 .s10-lsvg .trk { fill:none; stroke:var(--line2); stroke-width:2.5; stroke-dasharray:2 9; stroke-linecap:round; }
+#s10 .s10-lsvg .arc { fill:none; stroke:var(--acc); stroke-width:3.5; stroke-linecap:round; stroke-linejoin:round; }
+#s10 .s10-rp { position:absolute; width:128px; height:128px; border-radius:24px; border:2.5px solid var(--acc); opacity:0; visibility:hidden; box-sizing:border-box; }
+#s10 .s10-rp.o { border-color:var(--acc2); }
+#s10 .s10-nl { position:absolute; width:200px; font-family:"SG"; font-weight:700; font-size:26px; line-height:32px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink); white-space:nowrap; }
+#s10 .s10-nl.t, #s10 .s10-nl.b { text-align:center; }
+#s10 .s10-nl.l { text-align:right; color:#DD6417; }
+#s10 .s10-nl.r { text-align:left; }
+#s10 .s10-trav { position:absolute; width:16px; height:16px; border-radius:50%; background:radial-gradient(circle at 35% 30%, #FFD9BC 0%, #F47E2A 58%, #DD6417 100%);
+  box-shadow:0 0 0 4px rgba(244,126,42,.16), 0 2px 8px rgba(224,110,32,.35); }
+/* radar card */
+#s10 .s10-rt { position:absolute; left:0; top:30px; width:436px; text-align:center; font-family:"SG"; font-weight:700; font-size:24px; line-height:30px;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--acc3); }
+#s10 .s10-rsvg { position:absolute; left:0; top:0; overflow:visible; }
+#s10 .s10-rsvg .g { fill:none; stroke:var(--line2); stroke-width:1.5; }
+#s10 .s10-rsvg .ax { stroke:var(--line2); stroke-width:1.5; }
+#s10 .s10-rsvg .gh { fill:none; stroke:rgba(27,127,176,.45); stroke-width:1.6; stroke-dasharray:4 6; }
+#s10 .s10-rsvg .d { fill:rgba(37,161,219,.14); stroke:var(--acc3); stroke-width:3; stroke-linejoin:round; }
+#s10 .s10-rsvg .vx { fill:#FFFFFF; stroke:var(--acc3); stroke-width:3; }
+/* phase 2: chip centred on the act card (x 726), 30-day activity card, KPI row, pulse, tagline (centred on x = 960) */
+#s10 .s10-days { left:576px; top:296px; width:300px; justify-content:center; font-size:22px; letter-spacing:.08em; text-transform:uppercase; }
+#s10 .s10-act { position:absolute; left:128px; top:352px; width:1196px; height:136px; }
+#s10 .s10-act .bar { position:absolute; bottom:28px; width:12px; border-radius:6px; transform-origin:50% 100%; }
+#s10 .s10-act::after { content:""; position:absolute; left:28px; width:1024px; top:108px; height:1.5px; background:var(--line); }
+#s10 .s10-avg { position:absolute; overflow:visible; z-index:2; }
+#s10 .s10-avg path { fill:none; stroke:var(--acc2); stroke-width:3; stroke-dasharray:12 9; stroke-linecap:round; }
+#s10 .s10-avgt { position:absolute; left:1070px; width:92px; height:32px; box-sizing:border-box; border-radius:16px; border:1.5px solid var(--acc2); background:#FFFFFF;
+  font-family:"SG"; font-weight:700; font-size:20px; line-height:29px; letter-spacing:.1em; text-align:center; color:#DD6417; }
+#s10 .s10-tile { top:512px; width:376px; height:232px; }
+#s10 .s10-tile .n { position:absolute; left:176px; top:44px; font-size:96px; line-height:96px; letter-spacing:-.02em; color:var(--ink); }
+#s10 .s10-tile .lb { position:absolute; left:178px; top:158px; font-family:"MR"; font-weight:600; font-size:24px; line-height:30px; color:var(--body); white-space:nowrap; }
+#s10 .s10-tile .sk { position:absolute; display:block; background:#E9EEF5; }
+#s10 .s10-tile .sk.p { left:28px; top:52px; width:128px; height:128px; border-radius:24px; }
+#s10 .s10-tile .sk.n1 { left:178px; top:58px; width:160px; height:64px; border-radius:14px; }
+#s10 .s10-tile .sk.n2 { left:178px; top:160px; width:132px; height:24px; border-radius:10px; }
+#s10 .s10-pulse { position:absolute; left:128px; top:760px; width:1196px; height:48px; }
+#s10 .s10-pulse svg { position:absolute; left:0; top:0; overflow:visible; }
+#s10 .s10-pulse path { fill:none; stroke:var(--acc); stroke-width:3; stroke-linejoin:round; stroke-linecap:round; }
+#s10 .s10-pulse .hd { position:absolute; left:-7px; top:17px; width:14px; height:14px; border-radius:50%; background:var(--acc); box-shadow:0 0 0 5px rgba(37,161,219,.16), 0 2px 8px rgba(27,127,176,.4); }
+#s10 .s10-tag { position:absolute; left:160px; top:824px; width:1600px; text-align:center; font-family:"SG"; font-weight:700; font-size:56px; line-height:64px;
+  letter-spacing:.01em; text-transform:uppercase; color:var(--ink); white-space:nowrap; }
+#s10 .s10-tag em { font-style:normal; color:#E06E20; }
+#s10 .s10-tag .nf { display:inline-block; }
+#s10 .s10-tag .fl { position:relative; display:inline-block; }
+#s10 .s10-tag .strike { position:absolute; left:0; right:0; top:52%; height:5px; background:var(--acc3); transform-origin:0 50%; border-radius:3px; }

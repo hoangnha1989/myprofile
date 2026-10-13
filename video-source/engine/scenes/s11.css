@@ -1,0 +1,93 @@
+/* ===== S11 gold: rail (left) + pushed stage (right). Hand-set left/top on the 2 px grid. ===== */
+#s11 .s11-eb { position:absolute; left:160px; top:150px; }
+#s11 .s11-ihl { position:absolute; left:360px; top:100px; width:1200px; font-size:68px; text-align:center; }
+#s11 .s11-rail { position:absolute; left:160px; top:240px; width:560px; height:336px; }
+#s11 .s11-rail .spine { position:absolute; left:26px; top:28px; }
+#s11 .s11-rail .row { position:absolute; left:0; width:560px; height:96px; }
+#s11 .s11-rail .node { position:absolute; left:0; top:0; width:56px; height:56px; border-radius:50%;
+  border:1.5px solid rgba(37,161,219,.35); background:linear-gradient(180deg, #FFFFFF, #F1F6FB);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95), 0 8px 16px -8px rgba(15,23,42,.22), 0 16px 30px -16px rgba(27,127,176,.40);
+  display:flex; align-items:center; justify-content:center; font-family:"SG"; font-weight:700; font-size:22px; color:var(--muted); }
+#s11 .s11-rail .node i { position:absolute; inset:-1.5px; border-radius:50%; opacity:0; visibility:hidden; }
+#s11 .s11-rail .node .soft { background:#E6F4FB; border:1.5px solid rgba(37,161,219,.55); }
+#s11 .s11-rail .node .fill { background:var(--g-blue); box-shadow:0 8px 18px -6px rgba(27,127,176,.55); }
+#s11 .s11-rail .node span { position:relative; }
+#s11 .s11-rail .nring { position:absolute; left:0; top:0; width:56px; height:56px; border-radius:50%; border:2px solid var(--acc); opacity:0; }
+#s11 .s11-rail .tt { position:absolute; left:84px; top:4px; font-family:"SG"; font-weight:700; font-size:34px; line-height:48px; letter-spacing:.005em; color:var(--ink); white-space:nowrap; }
+#s11 .s11-rail .rs { position:absolute; left:84px; top:58px; display:flex; align-items:center; gap:14px; font-family:"MR"; font-weight:600; font-size:24px; line-height:34px; white-space:nowrap; }
+#s11 .s11-rail .sub { color:var(--body); display:inline-block; }
+#s11 .s11-rail .res { display:inline-flex; align-items:center; gap:8px; color:#DD6417; }
+#s11 .s11-rail .res b { font-family:"SG"; font-weight:700; }
+#s11 .s11-stage { position:absolute; left:744px; top:190px; width:1040px; height:650px; }
+#s11 .pnl { position:absolute; inset:0; }
+/* the intro panel uses frame coordinates (stage left 744 -> -744) so its group centres on x = 960 */
+#s11 .pnl.full { left:-744px; right:auto; width:1920px; }
+/* shared card header: S plate (24, 24) + SG label on its centre line */
+#s11 .s11-hd { position:absolute; left:128px; top:56px; line-height:24px; color:var(--ink); font-weight:700; letter-spacing:.14em; white-space:nowrap; }
+/* intro */
+#s11 .s11-thread, #s11 .s11-gthread { position:absolute; }
+#s11 .s11-spark { position:absolute; width:16px; height:16px; margin:-4px 0 0 -4px; border-radius:50%;
+  background:radial-gradient(circle at 35% 30%, #FFD9BC 0%, #F47E2A 58%, #DD6417 100%); box-shadow:0 0 0 5px rgba(244,126,42,.16), 0 2px 10px rgba(224,110,32,.35); }
+#s11 .s11-tlab { position:absolute; top:434px; width:260px; text-align:center; font-family:"SG"; font-weight:700; font-size:26px; line-height:36px; color:var(--ink); white-space:nowrap; }
+#s11 .s11-tlab .in { display:inline-block; }
+#s11 .s11-tlab .tn { display:block; font-size:24px; line-height:32px; letter-spacing:.14em; color:var(--muted); }
+/* beat 1 */
+#s11 .s11-office { left:0; top:24px; width:480px; height:500px; }
+#s11 .desk { position:absolute; width:136px; height:108px; border-radius:16px; border:1px solid var(--line); background:linear-gradient(180deg, #FFFFFF, #F4F8FB); }
+#s11 .desk .av { position:absolute; left:30px; top:16px; width:76px; height:76px; object-fit:contain; filter:grayscale(1) opacity(.38); }
+#s11 .desk.on { border-color:rgba(37,161,219,.45); background:linear-gradient(180deg, #F2F9FD, #FFFFFF); box-shadow:0 8px 16px -10px rgba(27,127,176,.35); }
+#s11 .desk.on .av { filter:drop-shadow(0 6px 6px rgba(27,127,176,.22)); }
+#s11 .desk .st { position:absolute; left:112px; top:12px; width:12px; height:12px; border-radius:50%; background:#CBD5E1; }
+#s11 .desk.on .st { background:var(--acc); box-shadow:0 0 0 4px rgba(37,161,219,.16); }
+#s11 .desk .pr { position:absolute; left:106px; top:6px; width:24px; height:24px; border-radius:50%; border:2px solid var(--acc); opacity:0; }
+#s11 .s11-flow { position:absolute; left:492px; top:262px; }
+#s11 .s11-ts { left:560px; top:24px; width:480px; height:500px; }
+#s11 .s11-ts .tr { position:absolute; left:28px; width:424px; height:40px; }
+#s11 .s11-ts .tr .av { position:absolute; left:0; top:0; width:40px; height:40px; object-fit:contain; }
+#s11 .s11-ts .trk { position:absolute; left:60px; top:15px; width:300px; height:10px; border-radius:5px; background:var(--line); overflow:hidden; }
+#s11 .s11-ts .trk i { position:absolute; inset:0; border-radius:5px; background:var(--g-blue); transform-origin:0 50%; transform:scaleX(0); }
+#s11 .s11-ts .ok { position:absolute; left:384px; top:7px; }
+/* chip row: S plate (88, top 552) + 16 gap + chip 300 x 52 on the plate centre line (y 596); manager left, paperwork right */
+#s11 .s11-mgr { left:142px; top:570px; width:300px; height:52px; padding:0 18px; justify-content:center; font-size:22px; box-sizing:border-box; }
+#s11 .s11-paper { left:702px; top:570px; width:300px; height:52px; padding:0 18px; justify-content:center; box-sizing:border-box; }
+#s11 .s11-paper span { position:relative; font-family:"SG"; font-weight:700; font-size:22px; color:var(--ink); }
+#s11 .s11-paper .strike { position:absolute; left:-6px; right:-6px; top:50%; height:3px; margin-top:-1px; border-radius:2px; background:#DD6417; transform-origin:0 50%; }
+/* beat 2 */
+#s11 .s11-tie { position:absolute; left:234px; top:288px; }
+#s11 .s11-vault { left:400px; top:24px; width:600px; height:536px; }
+/* sealed: the card's own edge turns blue (no inner frame): the overlay sits exactly on the 1.5 px border box, same radius */
+#s11 .s11-vault .vseal, #s11 .s11-vault .vring { position:absolute; inset:-1.5px; box-sizing:border-box; border-radius:24px; border:2px solid var(--acc); opacity:0; pointer-events:none; }
+#s11 .s11-vault .chat { position:absolute; left:40px; top:148px; width:520px; height:364px; }
+#s11 .bub { position:absolute; height:60px; border-radius:20px 20px 20px 6px; border:1px solid var(--line2); background:#FFFFFF;
+  padding:17px 22px; box-sizing:border-box; display:flex; flex-direction:column; gap:10px; transform-origin:0 100%; box-shadow:0 6px 12px -8px rgba(15,23,42,.18); }
+#s11 .bub.me { border-radius:20px 20px 6px 20px; border-color:rgba(37,161,219,.55); background:#EAF6FC; transform-origin:100% 100%; }
+#s11 .bub i { display:block; height:6px; border-radius:3px; background:#C3CEDB; }
+#s11 .bub.me i { background:rgba(27,127,176,.45); }
+#s11 .s11-vlbl { left:520px; top:584px; width:360px; height:52px; justify-content:center; gap:12px; font-size:22px; }
+#s11 .s11-vlbl img { width:32px; height:32px; object-fit:contain; }
+/* beat 3 */
+#s11 .s11-doc { top:24px; width:340px; height:420px; }
+#s11 .s11-doc .s11-hd { font-size:30px; letter-spacing:.06em; top:54px; line-height:28px; }
+#s11 .s11-doc .hr { position:absolute; left:28px; right:28px; top:128px; height:1px; background:var(--line); }
+#s11 .s11-doc .bar { position:absolute; height:10px; border-radius:5px; background:var(--line2); transform-origin:0 50%; }
+#s11 .s11-doc .ad { position:absolute; width:14px; height:14px; border-radius:50%; border:2px solid var(--line2); background:#F8FAFC; box-sizing:border-box; }
+#s11 .s11-links { position:absolute; top:24px; }
+#s11 .s11-gauge { position:absolute; left:324px; top:484px; width:392px; height:150px; }
+#s11 .s11-gauge svg { position:absolute; left:152px; top:0; }
+#s11 .s11-glbl { position:absolute; left:152px; top:96px; width:240px; text-align:center; font-size:26px; line-height:32px; color:var(--ink); font-weight:700; letter-spacing:.14em; }
+/* end: centred in the stage (x 0..1040); eyebrow on the rail eyebrow line (frame 150), the group 52 px up with it */
+#s11 .s11-geb { position:absolute; left:0; top:-40px; width:1040px; text-align:center; }
+#s11 .s11-ghl { position:absolute; left:0; top:216px; width:1040px; font-size:96px; text-align:center; }
+#s11 .s11-grule { position:absolute; left:460px; top:450px; width:120px; height:4px; border-radius:2px; background:var(--g-blue); transform-origin:50% 50%; }
+#s11 .s11-grow { position:absolute; left:0; top:476px; width:1040px; height:88px; display:flex; align-items:center; justify-content:center; gap:24px; }
+#s11 .s11-grow .fx-plate { position:relative; flex:0 0 auto; }
+#s11 .s11-gsub { font-size:34px; color:var(--body); white-space:nowrap; }
+#s11 .s11-gsub b { font-weight:800; color:var(--ink); }
+/* app showcase dock: 200 x 126 cards (2 x 2 under the rail, 16 px gaps); slim 10 px bar so it stays light when the card is
+   scaled up; the image fills a fixed 112 px area (top left); s11.js zooms it onto its own content as it docks */
+#s11 .nx-sc .bar { height:10px; gap:4px; padding:0 6px; }
+#s11 .nx-sc .bar i { width:4px; height:4px; }
+#s11 .nx-sc img { width:200px; height:112px; object-fit:cover; object-position:0 0; }
+#s11 .nx-sc .msk { position:relative; width:200px; height:112px; overflow:hidden; pointer-events:none; }
+#s11 .nx-sc .zm { position:absolute; left:0; top:0; width:200px; height:112px; }
+#s11 .nx-sc .msk i { position:absolute; display:block; }

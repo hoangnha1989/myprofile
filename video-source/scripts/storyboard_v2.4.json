@@ -1,0 +1,253 @@
+{
+ "title": "Thai Tran Hoang Nha | Personal Brand & Profile Video",
+ "version": "2.4 (draft for approval)",
+ "date": "2026-10-12",
+ "voice": "English, male, native American, calm and confident (Qwen3-TTS voice design + clone, A/B before production)",
+ "wpm": 170,
+ "gap": 2.0,
+ "lead": 1.0,
+ "chapters": [
+  {
+   "id": "A",
+   "name": "Who I am",
+   "scenes": [
+    "01",
+    "02",
+    "03"
+   ]
+  },
+  {
+   "id": "B",
+   "name": "How I hire",
+   "scenes": [
+    "04",
+    "05",
+    "06"
+   ]
+  },
+  {
+   "id": "C",
+   "name": "What I built",
+   "scenes": [
+    "07",
+    "08",
+    "09",
+    "10",
+    "11"
+   ]
+  },
+  {
+   "id": "D",
+   "name": "The human side",
+   "scenes": [
+    "12",
+    "13"
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "n": "01",
+   "title": "Hook",
+   "vi_title": "Mở đầu gây chú ý",
+   "vo": "More than eleven years in talent acquisition have taught me one thing: great hiring is about judgment, not volume. And that led me to a question that has driven my work ever since. What if that judgment could scale?",
+   "vi": "Hơn 11 năm tuyển dụng dạy tôi một điều: tuyển giỏi là nhờ khả năng nhận định, không phải số lượng. Và điều đó dẫn tôi đến một câu hỏi đã định hướng công việc của tôi từ đó đến nay: nếu nhân bản được khả năng nhận định đó thì sao?",
+   "direct": "Giọng chậm, dừng một nhịp trước câu hỏi cuối. Không có logo nào; tên của anh chỉ xuất hiện ở cảnh 02.",
+   "ost": "JUDGMENT, NOT VOLUME. · What if judgment could scale?",
+   "visual": "Nền tối graphite. Một dòng chữ lớn kiểu editorial gõ ra theo lời; hàng trăm chấm (ứng viên) trôi mờ phía sau rồi hội tụ về MỘT chấm sáng ở chữ 'judgment'. Nếu anh tự quay: cận mặt nói trước camera, chữ đè lên một bên.",
+   "fx": "Mở bằng fade-from-black + mask-reveal chữ; hạt hội tụ (converge).",
+   "asset": "Motion graphic (đã chốt, không quay)",
+   "src": "Storyboard v1.1 cảnh 01 (đã duyệt).",
+   "link": "And that raised a question",
+   "why": "Đặt câu hỏi xuyên suốt cả video: làm sao nhân rộng khả năng nhận định của một người tuyển dụng giỏi."
+  },
+  {
+   "n": "02",
+   "title": "Who I am",
+   "vi_title": "Tôi là ai",
+   "vo": "Let me start with who I am. I lead talent acquisition in Ho Chi Minh City, working in Vietnamese, English and Japanese.",
+   "vi": "Xin bắt đầu bằng việc tôi là ai. Tôi lãnh đạo tuyển dụng tại TP.HCM, làm việc bằng tiếng Việt, Anh và Nhật.",
+   "direct": "Lower-third tên + chức danh, gọn, kiểu tạp chí.",
+   "ost": "THAI TRAN HOANG NHA · Talent Acquisition & AI Systems · VI · EN · JP (JLPT N2)",
+   "visual": "Name card editorial: tên lớn, chức danh nhỏ, 3 nhãn ngôn ngữ dạng chip chữ (KHÔNG dùng cờ, KHÔNG logo). Bản đồ đường nét mảnh TP.HCM chấm sáng một điểm.",
+   "fx": "Push-in chậm; lower-third trượt vào từ trái (slide-fade).",
+   "asset": "Motion graphic (đã chốt, không quay)",
+   "src": "CV: Languages, Certifications (v1.1 cảnh 02).",
+   "link": "Let me start with who I am",
+   "why": "Cho người xem biết ngay đang nghe ai, và năng lực ngôn ngữ phục vụ khách Nhật, quốc tế."
+  },
+  {
+   "n": "03",
+   "title": "Career path",
+   "vi_title": "Quá trình làm việc (như CV)",
+   "vo": "My path here has given me a wide view of people and business. I began in banking, on the international settlement desk. I then built my career in talent acquisition: I ran an IT branch of around thirty people for a Japanese company, and spent five years as an HR and Recruiting Manager. Today, I recruit senior technology talent for a US executive search firm. I have also presented at industry events on how AI can be applied in HR and recruitment.",
+   "vi": "Con đường đến đây cho tôi một góc nhìn rộng về con người và kinh doanh. Tôi bắt đầu ở ngân hàng, mảng thanh toán quốc tế. Sau đó tôi xây dựng sự nghiệp trong tuyển dụng nhân tài: điều hành một chi nhánh IT khoảng 30 người cho một công ty Nhật, và 5 năm làm Trưởng phòng Nhân sự & Tuyển dụng. Hiện tôi tuyển nhân sự công nghệ cấp cao cho một công ty executive search của Mỹ. Tôi cũng từng thuyết trình tại các sự kiện trong ngành về việc ứng dụng AI vào nhân sự và tuyển dụng.",
+   "direct": "KHÔNG tên công ty nào (anh chốt 12/10): chỉ ngành, vai trò, quy mô. Nhấn 'thirty people'.",
+   "ost": "Banking · International settlement → IT Branch Manager · 30 people → HR & Recruiting Manager · 5 years → Executive Search · Senior tech → Speaker · AI in HR & recruitment",
+   "visual": "Dòng thời gian ngang 2011 → 2026 trên nền tối; mỗi mốc là một thẻ chữ (năm lớn + vai trò), mốc 2017 bật thêm 30 chấm người xếp lưới.",
+   "fx": "Đường kẻ vẽ dần (draw path) + thẻ hiện theo từng năm khi được đọc; camera trượt ngang theo dòng thời gian.",
+   "asset": "Motion graphic",
+   "src": "CV trang 1–2, đã ẩn tên công ty.",
+   "link": "My path here",
+   "why": "Chứng minh nền tảng: hiểu tài chính, nhân sự, quản lý đội 30 người và tuyển dụng cấp cao. Đây là lý do anh hiểu cả nghiệp vụ lẫn con người."
+  },
+  {
+   "n": "04",
+   "title": "My philosophy",
+   "vi_title": "Triết lý tuyển dụng (từ video công ty v4.7)",
+   "vo": "Across all of those roles, one lesson kept coming back. A CV records the past, but never the whole person. So before any search begins, I define the role with the client: the must-have skills, the team, and the manager the new hire will work with. Getting this right first saves weeks of searching in the wrong direction.",
+   "vi": "Qua tất cả những vai trò đó, một bài học cứ lặp lại: CV ghi lại quá khứ, nhưng không bao giờ là con người trọn vẹn. Nên trước khi tìm kiếm, tôi cùng khách định nghĩa vị trí: kỹ năng bắt buộc, đội ngũ, và người quản lý mà người mới sẽ làm cùng. Làm đúng bước này trước sẽ tiết kiệm hàng tuần tìm sai hướng.",
+   "direct": "Câu mở lấy từ video công ty v4.7 (đã duyệt), chuyển sang ngôi thứ nhất I.",
+   "ost": "A CV records the past. · MORE THAN A JD · Must-have skills · The team · The manager",
+   "visual": "Một tờ CV mờ dần phía sau; khung 'Role profile' dựng lên với 3 thẻ (kỹ năng / đội ngũ / quản lý) hiện đúng lúc đọc.",
+   "fx": "Iris mở từ tờ CV sang role profile; 3 thẻ edge-wipe lần lượt.",
+   "asset": "Motion graphic",
+   "src": "Video công ty v4.7 cảnh 1 + 3 (lời đã duyệt).",
+   "link": "Across all of those roles",
+   "why": "Mục đích: tìm đúng người ngay từ đầu, không tốn thời gian tìm sai hướng."
+  },
+  {
+   "n": "05",
+   "title": "How I find and assess",
+   "vi_title": "Cách tôi tìm và đánh giá ứng viên",
+   "vo": "Once the role is clear, the search begins. I approach talent directly, including people who are not yet looking, and interview each candidate using the hiring manager's own criteria. Out of twenty to forty candidates, only one or two are presented, each with a clear reason why they fit. That way, leaders spend their time only on people worth meeting. Over ten years, this approach has led to more than eight hundred offers, from junior and senior engineers to team leads and managers, backed by an IT talent database of nearly five thousand CVs.",
+   "vi": "Khi vị trí đã rõ, cuộc tìm kiếm bắt đầu. Tôi tiếp cận trực tiếp nhân tài, kể cả người chưa tìm việc, và phỏng vấn từng ứng viên bằng chính tiêu chí của hiring manager. Từ 20–40 ứng viên, chỉ 1–2 người được giới thiệu, mỗi người kèm lý do rõ ràng. Nhờ vậy, lãnh đạo chỉ dành thời gian cho những người đáng gặp. Trong 10 năm, cách làm này đã mang lại hơn 800 offer, từ kỹ sư junior, senior đến trưởng nhóm và quản lý, dựa trên cơ sở dữ liệu nhân tài IT gần 5.000 CV.",
+   "direct": "Cảnh 'phương pháp' cốt lõi. Nhấn 'not yet looking', 'one or two'.",
+   "ost": "Direct approach · Hiring manager's criteria · 20–40 SCREENED → 1–2 PRESENTED → 800+ offers · Junior · Senior · Team lead · Manager · ~5,000 IT CVs",
+   "visual": "Trường chấm ứng viên; kính lúp tìm ra người 'chưa tìm việc'; checklist của manager chuyển sang người phỏng vấn; phễu 20–40 → 1–2 với 2 thẻ lý do.",
+   "fx": "Push ngang giữa 3 nhịp; funnel đếm số; thẻ lý do slide-fade.",
+   "asset": "Motion graphic",
+   "src": "Video công ty v4.7 cảnh 4–6 (lời đã duyệt).",
+   "link": "Once the role is clear",
+   "why": "Mục đích: tiếp cận cả nhân tài không tìm việc; lọc kỹ để lãnh đạo không mất thời gian phỏng vấn người không phù hợp."
+  },
+  {
+   "n": "06",
+   "title": "My own method",
+   "vi_title": "Quy trình 23 bước do tôi tự xây dựng",
+   "vo": "To make this repeatable, I built a method of my own: a twenty-three-step recruitment workflow, with checklists, metrics and a report at every milestone. And it does not stop at the offer. I follow each placement through probation, because a hire only succeeds when the person stays and grows.",
+   "vi": "Để làm điều này nhất quán, tôi xây dựng phương pháp của riêng mình: quy trình tuyển dụng 23 bước, có checklist, chỉ số và báo cáo ở từng mốc. Và nó không dừng ở offer: tôi theo sát từng người qua thử việc, vì một lần tuyển chỉ thành công khi người đó ở lại và phát triển.",
+   "direct": "Quy trình 23 bước là nghiệp vụ anh tự thiết kế và xây dựng (anh xác nhận 12/10). Đã bỏ con số 95% vì đó là số liệu công ty, không phải số cá nhân.",
+   "ost": "MY 23-STEP RECRUITMENT WORKFLOW · Checklists · Metrics · Milestone reports · Follow-up through probation",
+   "visual": "Bản vẽ quy trình 23 bước dạng blueprint: 23 nút nhỏ trên lưới, chia 4 chặng (Define · Search · Assess · Follow-up); mỗi chặng sáng lên với icon nét mảnh checklist / chỉ số / báo cáo; cuối dòng là mốc 'Probation' có dấu tick.",
+   "fx": "Nét vẽ chạy dọc quy trình (draw path) + count-up 1 → 23; split-doors sang chương C.",
+   "asset": "Motion graphic",
+   "src": "Nghiệp vụ cá nhân của anh Nhã (xác nhận 12/10/2026).",
+   "link": "To make this repeatable",
+   "why": "Mục đích: chất lượng không phụ thuộc may rủi hay cảm hứng; khách thấy được tiến độ từng mốc; thành công đo bằng người ở lại, không phải bằng offer."
+  },
+  {
+   "n": "07",
+   "title": "The bridge",
+   "vi_title": "Cầu nối IT + Nhân sự",
+   "vo": "But a process run by hand can only grow so far. Good candidates wait too long for a reply, follow-ups slip, and valuable judgment is spent on repetitive work. With years beside engineers and years in HR, I built the system myself, with one purpose: let software carry the routine, so people can focus on decisions.",
+   "vi": "Nhưng quy trình chạy bằng tay chỉ lớn được đến một mức. Ứng viên giỏi phải chờ phản hồi quá lâu, việc theo dõi bị sót, và khả năng nhận định quý giá bị tiêu vào việc lặp lại. Với nhiều năm làm cùng kỹ sư và nhiều năm làm nhân sự, tôi tự tay xây hệ thống với một mục đích: để phần mềm gánh việc lặp lại, để con người tập trung vào quyết định.",
+   "direct": "Nhấn chữ 'myself'. Đây là bản lề từ 'cách tôi tuyển' sang 'cái tôi xây'.",
+   "ost": "Slow replies · Missed follow-ups · Judgment lost to routine → SOFTWARE CARRIES THE ROUTINE · PEOPLE MAKE THE DECISIONS",
+   "visual": "Ba biểu tượng nỗi đau hiện lần lượt (đồng hồ cát ứng viên chờ, mắt xích theo dõi bị đứt, người giỏi chìm trong chồng việc lặp lại); rồi hai nửa màn hình (code | quy trình tuyển dụng) trượt vào nhau thành sơ đồ hệ thống, các việc lặp lại chảy sang phía máy, một quyết định sáng lên phía người.",
+   "fx": "Split-screen hợp nhất; light-leak chuyển sang demo app.",
+   "asset": "Motion graphic (đã chốt, không quay)",
+   "src": "v1.1 cảnh 04.",
+   "link": "But a process run by hand",
+   "why": "Ý nghĩa của việc xây phần mềm: giải đúng 3 nỗi đau (ứng viên chờ lâu, sót theo dõi, người giỏi bị kẹt việc vặt). Phần mềm làm phần lặp lại, con người giữ phần quyết định."
+  },
+  {
+   "n": "08",
+   "title": "An AI recruiter, many accounts",
+   "vi_title": "App đăng nhập nhiều tài khoản + AI agent như người thật",
+   "link": "The first thing I built",
+   "vo": "The first thing I built was an app that signs in to many recruiter accounts from a single screen, and uses an AI agent to grow the network across all of them. The agent is trained to reply just as a real recruiter would, day and night, in any language, and no candidate is ever contacted twice. The purpose: no good candidate is missed or kept waiting, and one recruiter reaches as far as a whole team.",
+   "vi": "Thứ đầu tiên tôi xây là một app đăng nhập nhiều tài khoản tuyển dụng trên một màn hình, dùng AI agent mở rộng kết nối qua tất cả tài khoản. Agent được huấn luyện trả lời y như một nhà tuyển dụng thật, ngày đêm, mọi ngôn ngữ, và không ứng viên nào bị liên hệ hai lần. Mục đích: không bỏ sót hay để ứng viên giỏi phải chờ, và một người tuyển dụng có độ phủ của cả một đội.",
+   "ost": "Many accounts · One screen · Replies like a real recruiter · 24/7 · Any language · Never contacted twice",
+   "visual": "Mô phỏng tượng trưng: một màn hình trung tâm, 8 avatar tài khoản xếp vòng quanh; từ đó các đường kết nối toả ra mạng lưới chấm ứng viên. Một hình AI agent (khối tròn có 'tai nghe') trả lời bong bóng chat bằng EN / VI / 日本語 / 한국어; vòng đồng hồ 24h quay; một chấm đã liên hệ được đánh dấu khoá để không chạm lần hai. Ảnh app thật (assets_v2) chỉ bật lên rất nhanh như minh hoạ chung: 2–3 thẻ ảnh nghiêng nhẹ, mờ nền, mỗi thẻ ~0.8 s ở góc khung, không zoom đọc chi tiết.",
+   "fx": "Hub toả kết nối (link draw), bong bóng chat pop theo từng ngôn ngữ, vòng 24h quay; pop-in thẻ ảnh thật.",
+   "asset": "Motion graphic + pop-in S05, S06a, S06d",
+   "src": "Mô tả của anh Nhã (12/10/2026); v1.1 cảnh 05–06.",
+   "direct": "KHÔNG đọc/hiện tên app. Lời nói theo giá trị: một người làm việc của cả đội, không ngủ.",
+   "why": "Giá trị kinh tế: mở rộng độ phủ mà không tăng người; phản hồi nhanh giữ chân ứng viên giỏi; không làm phiền ứng viên hai lần nên giữ uy tín thương hiệu tuyển dụng."
+  },
+  {
+   "n": "09",
+   "title": "A report on every candidate",
+   "vi_title": "Báo cáo từng ứng viên, chấm điểm thay đổi theo hội thoại",
+   "link": "Behind every conversation",
+   "vo": "Behind every conversation, it reports back to me, candidate by candidate: their potential, how well they fit each open role, and how that score changes with everything they share. When the fit is strong and the salary matches, it books a call with me, so I can interview the candidate myself. Instead of reading thousands of messages, I read one clear report, and spend my time on the candidates who matter.",
+   "vi": "Sau mỗi cuộc hội thoại, nó báo cáo lại cho tôi từng ứng viên: độ tiềm năng, mức phù hợp với từng vị trí, và điểm thay đổi theo từng điều ứng viên chia sẻ. Khi độ phù hợp cao và lương khớp, nó đặt lịch gọi với tôi, để tôi trực tiếp phỏng vấn ứng viên. Thay vì đọc hàng nghìn tin nhắn, tôi đọc một báo cáo rõ ràng, và dành thời gian cho những ứng viên thật sự đáng giá.",
+   "ost": "Candidate by candidate · Potential · Fit per role · Score updates live · Strong fit + salary match → Interview with Nha",
+   "visual": "Mô phỏng tượng trưng: mỗi bong bóng chat ứng viên bay vào một thẻ hồ sơ; thanh điểm trên thẻ nhích lên/xuống theo từng bong bóng; thẻ đạt ngưỡng sáng viền, bật icon điện thoại 'Interview with Nha'. Một phong thư báo cáo trượt vào hộp thư của anh. Ảnh app thật (assets_v2) chỉ bật lên rất nhanh như minh hoạ chung: 2–3 thẻ ảnh nghiêng nhẹ, mờ nền, mỗi thẻ ~0.8 s ở góc khung, không zoom đọc chi tiết.",
+   "fx": "Score bar tween theo nhịp lời; envelope slide-in; gauge vượt ngưỡng bật glow.",
+   "asset": "Motion graphic + pop-in S07",
+   "src": "Mô tả của anh Nhã (12/10/2026); v1.1 cảnh 07.",
+   "direct": "Đây là cảnh 'giá trị cho người quản lý': không phải đọc hết tin, chỉ đọc báo cáo.",
+   "why": "Giá trị: biến hàng nghìn tin nhắn thành một báo cáo ra quyết định; chỉ gọi khi đã khớp năng lực và lương nên không tốn thời gian của lãnh đạo."
+  },
+  {
+   "n": "10",
+   "title": "It learns, and it is measured",
+   "vi_title": "Tự học, tự sửa sai + kết quả đo được",
+   "link": "It also reviews its own work",
+   "vo": "It also reviews its own work every day, learning from each conversation, correcting its mistakes, and proposing improvements that I approve, so its quality grows every week while a person stays in control. And every action is measured. Every thirty days, on average: one hundred and ninety CVs, one hundred and sixty top-tier candidates, and one hundred and fifty interview calls. A sourcing team that never stops, and reports in numbers, not feelings.",
+   "vi": "Mỗi ngày nó còn tự xem lại công việc: học từ từng hội thoại, tự sửa sai, và đề xuất cải tiến để tôi duyệt, nên chất lượng tăng mỗi tuần mà con người vẫn nắm quyền kiểm soát. Và mọi hành động đều đo được. Trung bình mỗi 30 ngày: 190 CV, 160 ứng viên tiềm năng loại 1 và 150 cuộc gọi phỏng vấn. Một đội sourcing không nghỉ, báo cáo bằng số liệu chứ không bằng cảm tính.",
+   "ost": "Learn · Correct · Propose · Approve | 30-DAY AVERAGE · 190 CVs · 160 top-tier · 150 interview calls",
+   "visual": "Mô phỏng tượng trưng: vòng lặp 4 mũi tên Learn → Correct → Propose → Approve (dấu tick của anh ở bước Approve), radar 5 cạnh nở dần. Chuyển sang 3 ô số liệu lớn count-up (trung bình 30 ngày). Ảnh app thật (assets_v2) chỉ bật lên rất nhanh như minh hoạ chung: 2–3 thẻ ảnh nghiêng nhẹ, mờ nền, mỗi thẻ ~0.8 s ở góc khung, không zoom đọc chi tiết.",
+   "fx": "Vòng lặp quay một vòng; split sang lưới số liệu; count-up từng ô đúng lúc đọc.",
+   "asset": "Motion graphic + pop-in S08a, S09",
+   "src": "Số trung bình 30 ngày do anh Nhã cung cấp (13/10/2026).",
+   "direct": "Không đọc tên module HEART (gộp vào ý 'tự xem lại công việc mỗi ngày'). Số liệu công khai, anh đã biết.",
+   "why": "Ý nghĩa: AI tiến bộ liên tục nhưng không tự ý, mọi thay đổi do người duyệt; kết quả minh bạch bằng số để quản lý ra quyết định."
+  },
+  {
+   "n": "11",
+   "title": "Digitizing the rest of HR",
+   "vi_title": "Các app khác: chấm công từ xa, chat ứng viên, ATS",
+   "link": "The same idea now runs through",
+   "vo": "The same idea now runs through the rest of HR. I built a virtual office that records remote work and calculates timesheets automatically, so managers see real working time without paperwork. A chat platform keeps every candidate conversation inside the company, so knowledge stays when people move on. And an applicant tracking system scores each CV against the job, so screening is faster and fairer. The goal behind all of it: HR that runs on data, and people free for the human work.",
+   "vi": "Cùng ý tưởng đó giờ chạy qua mọi phần việc nhân sự. Tôi xây một văn phòng ảo ghi nhận làm việc từ xa và tự tính công, để quản lý thấy thời gian làm việc thật mà không cần giấy tờ. Một nền tảng chat giữ mọi hội thoại ứng viên trong công ty, để tri thức ở lại khi nhân sự nghỉ. Và một hệ thống quản lý ứng viên chấm từng CV so với JD, để sàng lọc nhanh và công bằng hơn. Mục tiêu chung: nhân sự vận hành bằng dữ liệu, con người rảnh tay cho phần việc con người.",
+   "ost": "Virtual office · Auto timesheet → no paperwork | Candidate chat in-house → knowledge stays | CV ↔ JD scoring → faster, fairer · HR THAT RUNS ON DATA",
+   "visual": "Mô phỏng tượng trưng 3 nhịp: (1) lưới bàn làm việc ảo, chấm hoạt động nhấp nháy, bảng công tự điền; (2) bong bóng chat chui vào một 'két' khoá của công ty; (3) tờ CV và JD đặt cạnh nhau, đường nối các kỹ năng khớp, đồng hồ % chạy lên. Ảnh app thật (assets_v2) chỉ bật lên rất nhanh như minh hoạ chung: 2–3 thẻ ảnh nghiêng nhẹ, mờ nền, mỗi thẻ ~0.8 s ở góc khung, không zoom đọc chi tiết.",
+   "fx": "Ba nhịp push ngang; mỗi nhịp một biểu tượng chính + pop-in ảnh thật.",
+   "asset": "Motion graphic + pop-in S11, S12a, S12c",
+   "src": "v1.1 cảnh 11–12.",
+   "direct": "KHÔNG đọc/hiện tên app (Peram...). Ngắn, đều nhịp 3 ý.",
+   "why": "Ý nghĩa từng app: chấm công minh bạch không giấy tờ; giữ tài sản dữ liệu ứng viên khi nhân viên nghỉ; sàng lọc nhanh, công bằng. Mục tiêu chung: số hoá toàn bộ nhân sự."
+  },
+  {
+   "n": "12",
+   "title": "What cannot be automated",
+   "vi_title": "Điều không thể tự động hoá: gặp mặt ứng viên cấp cao",
+   "vo": "Still, in HR, the most important thing is not to automate everything. Hiring is about people. For senior roles, I believe that meeting candidates in person is the foundation of truly understanding them: their motivations, their doubts, and the way they lead others. These are things no software can capture. So I interview every senior candidate face to face, from team leads to CTOs. I go to meet them, listen to what really drives them, and negotiate each offer in person.",
+   "vi": "Tuy vậy, với ngành nhân sự, điều quan trọng nhất không phải là tự động hoá mọi thứ. Tuyển dụng là chuyện con người. Với vị trí cấp cao, tôi xác định gặp trực tiếp ứng viên là điều kiện tiên quyết để thật sự hiểu họ: động lực, những băn khoăn, và cách họ dẫn dắt người khác. Đó là những điều không phần mềm nào nắm bắt được. Vì vậy tôi phỏng vấn face to face từng ứng viên cấp cao, từ team lead đến CTO. Tôi đến gặp họ, lắng nghe điều thực sự thúc đẩy họ, và đàm phán từng offer trực tiếp.",
+   "direct": "Đây là bản lề cảm xúc: giọng chậm lại, ấm hơn. Nhấn 'not to automate everything' và 'face to face'. Motion graphic, không ảnh người thật.",
+   "ost": "NOT EVERYTHING SHOULD BE AUTOMATED · Hiring is about people · Motivations · Doubts · Leadership · Face to face · Team lead → Head → CTO · In-person negotiation",
+   "visual": "Chuyển nhịp: các biểu tượng máy móc của chương C mờ dần, nền ấm lên. Câu 'Not everything should be automated' hiện lớn. Minh hoạ phẳng nét mảnh: bàn họp hai ghế, hai tách cà phê; quanh hình ứng viên tượng trưng nổi lên 3 nhãn Motivations · Doubts · Leadership kèm nhãn nhỏ 'cannot be automated'. Bên cạnh là thang cấp bậc Team lead → Head → CTO; cuối cảnh là hai bàn tay bắt nhau tượng trưng cho đàm phán xong.",
+   "fx": "Slow fade + giảm nhịp nhạc; nhãn nổi lên bằng blur-in; bắt tay scale-settle.",
+   "asset": "Motion graphic (đã chốt, không quay)",
+   "src": "Lời anh Nhã (12/10/2026); v1.1 cảnh 13.",
+   "link": "Still, in HR,",
+   "why": "Khẳng định triết lý: công nghệ phục vụ con người. Với vị trí cấp cao, hiểu động lực, băn khoăn và phong cách lãnh đạo chỉ có được khi gặp trực tiếp; đây là phần giá trị không máy nào thay được."
+  },
+  {
+   "n": "13",
+   "title": "Closing",
+   "vi_title": "Kết: cân bằng giữa AI và con người",
+   "vo": "That is the balance I bring to every search. AI handles the volume, so no good candidate is missed. I bring the judgment, built in face-to-face conversations, so the right person is chosen. Together, they help companies hire senior people who stay and grow. I would be glad to talk about the next senior hire.",
+   "vi": "Đó là sự cân bằng tôi mang vào mọi cuộc tìm kiếm. AI lo số lượng, để không bỏ sót ứng viên giỏi. Tôi mang đến khả năng nhận định, được hình thành qua những cuộc gặp trực tiếp, để chọn đúng người. Kết hợp lại, chúng giúp doanh nghiệp tuyển người cấp cao ở lại và phát triển lâu dài. Tôi rất sẵn lòng trao đổi về vị trí cấp cao tiếp theo.",
+   "direct": "Không logo công ty, không địa chỉ liên hệ thật (anh chốt 12/10). Giữ khung 3 giây rồi fade-to-black.",
+   "ost": "AI handles the volume → no one missed · I bring the judgment → the right person · THAI TRAN HOANG NHA · Talent Acquisition & AI Systems",
+   "visual": "Hai cột hội tụ: bên trái mạng lưới chấm (AI, khối lượng), bên phải bàn họp hai ghế (con người, nhận định); hai bên nhập vào một chấm sáng ở giữa, chấm đó nở thành tên lớn kiểu editorial. Kênh liên hệ thể hiện bằng icon tượng trưng (phong thư, mạng kết nối), không ghi địa chỉ thật.",
+   "fx": "Bloom nhẹ, giữ khung 3 giây rồi fade-to-black.",
+   "asset": "Motion graphic (đã chốt, không quay)",
+   "src": "v1.1 cảnh 14.",
+   "link": "That is the balance",
+   "why": "Gói lại toàn bộ câu chuyện thành một thông điệp: AI cho độ phủ, con người cho độ chính xác; kết quả là người cấp cao ở lại và phát triển."
+  }
+ ],
+ "memo": [
+  "v2.4: cảnh 12 nói rõ triết lý 'không tự động hoá mọi thứ', gặp mặt ứng viên cấp cao là điều kiện tiên quyết, phỏng vấn face to face và đàm phán trực tiếp; cảnh 13 gói lại sự cân bằng AI và con người.",
+  "Không đọc và không hiện tên app nào (MultiLogin, Peram, HEART): mỗi app được giới thiệu bằng việc nó làm và giá trị của nó.",
+  "Cảnh app (08–11) dùng animation tượng trưng là chính; ảnh app thật chỉ bật lên nhanh như minh hoạ chung (assets_v2 đã xoá chữ công ty, email, nút xoá).",
+  "Cảnh 08 dùng ý 'trả lời 24/7, mọi ngôn ngữ' theo lời anh. Storyboard v1.1 từng ghi 'trong giờ hành chính'; nếu agent chỉ chạy giờ hành chính thì báo em sửa.",
+  "Mỗi cảnh mở bằng một câu nối (tô màu trên trang) để mạch kể liền: tôi là ai, tôi tuyển thế nào, tôi xây gì, phần con người.",
+  "Giọng nam, tiếng Anh bản xứ. Anh duyệt lời xong em gửi 2–3 mẫu giọng nam để chọn."
+ ]
+}

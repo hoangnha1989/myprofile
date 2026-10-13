@@ -1,0 +1,45 @@
+/* headline zone: centred on the stage centre x 788 (right strip x 1528..1808 holds the docked app screens), two rows of 60 px SG uppercase, y 132..264 */
+#s08 .s08-hlz { position:absolute; left:0; top:0; width:0; height:0; }
+#s08 .s08-hl { position:absolute; left:88px; top:132px; width:1400px; height:132px; font-size:60px; text-align:center; color:var(--ink); white-space:nowrap; }
+#s08 .s08-hl .line { line-height:66px; }
+/* single-line headline sits on the zone mid-line */
+#s08 .s08-hl.s08-h1 { top:165px; height:66px; line-height:66px; }
+/* bottom row: y 744..872, 128 px cards, the 88 px plate inset 20 px on every side, text column 24 px past it */
+#s08 .s08-card { position:absolute; height:128px; }
+#s08 .s08-card .txt { position:absolute; left:132px; right:24px; top:0; bottom:0; display:flex; flex-direction:column; justify-content:center; gap:6px; }
+#s08 .s08-card .tag { font-family:"SG"; font-weight:600; font-size:20px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); white-space:nowrap; }
+#s08 .s08-card .tx { font-family:"MR"; font-weight:700; font-size:32px; line-height:38px; color:var(--ink); white-space:nowrap; }
+/* hub */
+#s08 .s08-hub { position:absolute; left:68px; top:280px; width:1440px; height:456px; }
+#s08 .s08-svg { position:absolute; left:0; top:0; overflow:visible; }
+#s08 .s08-svg .net line { stroke:rgba(100,116,139,.32); stroke-width:1.5; }
+#s08 .s08-svg .spk line { stroke:rgba(37,161,219,.55); stroke-width:2; }
+#s08 .s08-svg .ring .tk { stroke:#94A3B8; stroke-width:1.6; }
+#s08 .s08-svg .ring .base { fill:none; stroke:var(--line2); stroke-width:1.6; }
+#s08 .s08-svg .ring .sweep { fill:none; stroke:var(--acc); stroke-width:3.5; stroke-linecap:round; filter:drop-shadow(0 2px 4px rgba(37,161,219,.30)); }
+#s08 .s08-dot { position:absolute; border-radius:50%; background:var(--line2); }
+#s08 .s08-pulse { position:absolute; width:200px; height:200px; border-radius:50%; border:2px solid var(--acc); opacity:0; }
+#s08 .s08-24 { position:absolute; width:100px; text-align:center; font-size:24px; line-height:30px; color:var(--acc3); letter-spacing:.04em; }
+/* screening-question popups: two or three short lines, chip sized to the text (max 330 x 108) */
+#s08 .s08-bub { position:absolute; display:flex; align-items:center; gap:12px; padding:8px 18px 8px 14px; border-radius:16px;
+  border:1.5px solid transparent; background:linear-gradient(180deg, #FFFFFF, #F6F9FC) padding-box, var(--g-edge) border-box;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95), 0 6px 14px -6px rgba(15,23,42,.18), 0 18px 34px -16px rgba(27,127,176,.30); white-space:nowrap; }
+#s08 .s08-bub.l { border-bottom-left-radius:4px; }
+#s08 .s08-bub.r { border-bottom-right-radius:4px; }
+#s08 .s08-bub.dn.l { border-radius:4px 16px 16px 16px; }
+#s08 .s08-bub.dn.r { border-radius:16px 4px 16px 16px; }
+#s08 .s08-bub .lg { font-family:"SG"; font-weight:700; font-size:20px; letter-spacing:.08em; color:var(--acc3); padding:3px 8px; border-radius:7px; background:#E3F2FA; }
+#s08 .s08-bub .tx { display:flex; flex-direction:column; font-family:"MR", "Yu Gothic UI", "Meiryo", "Malgun Gothic", sans-serif; font-weight:600; font-size:22px; line-height:26px; color:var(--ink); }
+#s08 .s08-pls { position:absolute; width:14px; height:14px; border-radius:50%; background:var(--acc); box-shadow:0 0 0 5px rgba(37,161,219,.18); }
+#s08 .s08-roww { position:absolute; left:0; top:0; width:0; height:0; }
+/* lock badge on a contacted dot: 56 px white disc, orange ring, clay lock */
+#s08 .s08-lk { position:absolute; width:56px; height:56px; border-radius:50%; border:2px solid var(--acc2);
+  background:linear-gradient(165deg, #FFF4EC 0%, #FFFFFF 60%, #F6F9FC 100%);
+  box-shadow:0 0 0 4px rgba(224,110,32,.12), 0 8px 14px -6px rgba(15,23,42,.16), 0 14px 24px -14px rgba(224,110,32,.40); }
+#s08 .s08-lk img { position:absolute; left:8px; top:8px; width:36px; height:36px; object-fit:contain; display:block;
+  filter:drop-shadow(0 3px 4px rgba(224,110,32,.22)); }
+#s08 .s08-lockrp { position:absolute; width:80px; height:80px; border-radius:50%; border:2px solid var(--acc2); opacity:0; }
+/* app showcase cards (nx.showcase): slim window bar and a small radius, because the slam scales the docked thumb ~5x */
+#s08 .nx-sc { border-radius:6px; }
+#s08 .nx-sc .bar { height:10px; gap:3px; padding:0 5px; }
+#s08 .nx-sc .bar i { width:4px; height:4px; }

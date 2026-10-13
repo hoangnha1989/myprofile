@@ -1,0 +1,508 @@
+1
+00:00:01,058 --> 00:00:02,133
+More than eleven years
+
+2
+00:00:02,217 --> 00:00:04,700
+in talent acquisition have taught me one thing:
+
+3
+00:00:04,783 --> 00:00:06,458
+great hiring is about judgment,
+
+4
+00:00:06,542 --> 00:00:08,450
+not volume. And that led me to a question
+
+5
+00:00:08,533 --> 00:00:10,325
+that has driven my work ever since.
+
+6
+00:00:10,408 --> 00:00:12,298
+What if that judgment could scale?
+
+7
+00:00:13,792 --> 00:00:15,550
+Let me start with who I am.
+
+8
+00:00:15,633 --> 00:00:18,083
+I lead talent acquisition in Ho Chi Minh City,
+
+9
+00:00:18,167 --> 00:00:19,100
+working in Vietnamese,
+
+10
+00:00:19,183 --> 00:00:20,350
+English and Japanese.
+
+11
+00:00:22,150 --> 00:00:24,125
+My path here has given me a wide view
+
+12
+00:00:24,208 --> 00:00:25,700
+of people and business.
+
+13
+00:00:25,783 --> 00:00:28,392
+I began in banking, on the international settlement desk.
+
+14
+00:00:28,475 --> 00:00:30,975
+I then built my career in talent acquisition:
+
+15
+00:00:31,067 --> 00:00:33,325
+I ran an IT branch of around thirty people
+
+16
+00:00:33,408 --> 00:00:34,642
+for a Japanese company,
+
+17
+00:00:34,725 --> 00:00:37,450
+and spent five years as an HR and Recruiting Manager.
+
+18
+00:00:37,533 --> 00:00:39,542
+Today, I recruit senior technology talent
+
+19
+00:00:39,625 --> 00:00:41,608
+for a US executive search firm.
+
+20
+00:00:41,692 --> 00:00:43,342
+I have also presented at industry events
+
+21
+00:00:43,425 --> 00:00:46,200
+on how AI can be applied in HR and recruitment.
+
+22
+00:00:48,075 --> 00:00:49,483
+Across all of those roles,
+
+23
+00:00:49,567 --> 00:00:50,917
+one lesson kept coming back.
+
+24
+00:00:51,000 --> 00:00:52,483
+A CV records the past,
+
+25
+00:00:52,567 --> 00:00:53,433
+but never the whole person.
+
+26
+00:00:53,517 --> 00:00:55,200
+So before any search begins,
+
+27
+00:00:55,283 --> 00:00:56,950
+I define the role with the client:
+
+28
+00:00:57,033 --> 00:00:58,217
+the must-have skills, the team,
+
+29
+00:00:58,300 --> 00:01:00,367
+and the manager the new hire will work with.
+
+30
+00:01:00,450 --> 00:01:01,983
+Getting this right first saves weeks
+
+31
+00:01:02,067 --> 00:01:04,067
+of searching in the wrong direction.
+
+32
+00:01:05,525 --> 00:01:06,717
+Once the role is clear,
+
+33
+00:01:06,800 --> 00:01:09,117
+the search begins. I approach talent directly,
+
+34
+00:01:09,200 --> 00:01:10,900
+including people who are not yet looking,
+
+35
+00:01:10,983 --> 00:01:12,567
+and interview each candidate using
+
+36
+00:01:12,650 --> 00:01:14,508
+the hiring manager's own criteria.
+
+37
+00:01:14,592 --> 00:01:16,217
+Out of twenty to forty candidates,
+
+38
+00:01:16,300 --> 00:01:17,858
+only one or two are presented,
+
+39
+00:01:17,942 --> 00:01:19,550
+each with a clear reason why they fit.
+
+40
+00:01:19,633 --> 00:01:21,683
+That way, leaders spend their time only
+
+41
+00:01:21,767 --> 00:01:23,100
+on people worth meeting.
+
+42
+00:01:23,183 --> 00:01:24,600
+Over ten years, this approach has led
+
+43
+00:01:24,683 --> 00:01:26,067
+to more than eight hundred offers,
+
+44
+00:01:26,150 --> 00:01:29,058
+from junior and senior engineers to team leads and managers,
+
+45
+00:01:29,142 --> 00:01:32,708
+backed by an IT talent database of nearly five thousand CVs.
+
+46
+00:01:33,992 --> 00:01:35,433
+To make this repeatable,
+
+47
+00:01:35,517 --> 00:01:36,767
+I built a method of my own:
+
+48
+00:01:36,850 --> 00:01:38,925
+a twenty-three-step recruitment workflow,
+
+49
+00:01:39,008 --> 00:01:41,883
+with checklists, metrics and a report at every milestone.
+
+50
+00:01:41,967 --> 00:01:43,533
+And it does not stop at the offer.
+
+51
+00:01:43,617 --> 00:01:45,367
+I follow each placement through probation,
+
+52
+00:01:45,450 --> 00:01:47,050
+because a hire only succeeds
+
+53
+00:01:47,133 --> 00:01:48,925
+when the person stays and grows.
+
+54
+00:01:50,692 --> 00:01:53,583
+But a process run by hand can only grow so far.
+
+55
+00:01:53,667 --> 00:01:55,506
+Good candidates wait too long for a reply,
+
+56
+00:01:55,589 --> 00:01:57,983
+follow-ups slip, and valuable judgment is spent
+
+57
+00:01:58,067 --> 00:01:59,100
+on repetitive work.
+
+58
+00:01:59,183 --> 00:02:01,717
+With years beside engineers and years in HR,
+
+59
+00:02:01,800 --> 00:02:03,183
+I built the system myself,
+
+60
+00:02:03,267 --> 00:02:05,683
+with one purpose: let software carry the routine,
+
+61
+00:02:05,767 --> 00:02:07,708
+so people can focus on decisions.
+
+62
+00:02:09,492 --> 00:02:11,867
+The first thing I built was an app that signs in
+
+63
+00:02:11,950 --> 00:02:14,117
+to many recruiter accounts from a single screen,
+
+64
+00:02:14,200 --> 00:02:17,633
+and uses an AI agent to grow the network across all of them.
+
+65
+00:02:17,717 --> 00:02:19,200
+The agent is trained to reply just
+
+66
+00:02:19,283 --> 00:02:20,283
+as a real recruiter would,
+
+67
+00:02:20,367 --> 00:02:22,033
+day and night, in any language,
+
+68
+00:02:22,117 --> 00:02:24,475
+and no candidate is ever contacted twice.
+
+69
+00:02:24,558 --> 00:02:27,567
+The purpose: no good candidate is missed or kept waiting,
+
+70
+00:02:27,650 --> 00:02:30,372
+and one recruiter reaches as far as a whole team.
+
+71
+00:02:31,883 --> 00:02:33,408
+Behind every conversation,
+
+72
+00:02:33,492 --> 00:02:34,725
+it reports back to me,
+
+73
+00:02:34,808 --> 00:02:35,792
+candidate by candidate:
+
+74
+00:02:35,875 --> 00:02:38,508
+their potential, how well they fit each open role,
+
+75
+00:02:38,592 --> 00:02:40,925
+and how that score changes with everything they share.
+
+76
+00:02:41,008 --> 00:02:42,958
+When the fit is strong and the salary matches,
+
+77
+00:02:43,042 --> 00:02:44,092
+it books a call with me,
+
+78
+00:02:44,175 --> 00:02:46,108
+so I can interview the candidate myself.
+
+79
+00:02:46,192 --> 00:02:48,025
+Instead of reading thousands of messages,
+
+80
+00:02:48,108 --> 00:02:49,225
+I read one clear report,
+
+81
+00:02:49,308 --> 00:02:51,919
+and spend my time on the candidates who matter.
+
+82
+00:02:53,358 --> 00:02:55,517
+It also reviews its own work every day,
+
+83
+00:02:55,600 --> 00:02:57,025
+learning from each conversation,
+
+84
+00:02:57,108 --> 00:02:58,183
+correcting its mistakes,
+
+85
+00:02:58,267 --> 00:02:59,767
+and proposing improvements that I approve,
+
+86
+00:02:59,850 --> 00:03:01,567
+so its quality grows every week
+
+87
+00:03:01,650 --> 00:03:03,358
+while a person stays in control.
+
+88
+00:03:03,442 --> 00:03:04,742
+And every action is measured.
+
+89
+00:03:04,825 --> 00:03:06,022
+Every thirty days, on average:
+
+90
+00:03:06,105 --> 00:03:07,098
+one hundred and ninety CVs,
+
+91
+00:03:07,182 --> 00:03:09,433
+one hundred and sixty top-tier candidates,
+
+92
+00:03:09,517 --> 00:03:11,742
+and one hundred and fifty interview calls.
+
+93
+00:03:11,825 --> 00:03:13,283
+A sourcing team that never stops,
+
+94
+00:03:13,367 --> 00:03:14,433
+and reports in numbers,
+
+95
+00:03:14,517 --> 00:03:15,517
+not feelings.
+
+96
+00:03:17,275 --> 00:03:20,192
+The same idea now runs through the rest of HR.
+
+97
+00:03:20,275 --> 00:03:22,517
+I built a virtual office that records remote work
+
+98
+00:03:22,600 --> 00:03:24,333
+and calculates timesheets automatically,
+
+99
+00:03:24,417 --> 00:03:27,508
+so managers see real working time without paperwork.
+
+100
+00:03:27,592 --> 00:03:29,367
+A chat platform keeps every candidate
+
+101
+00:03:29,450 --> 00:03:31,367
+conversation inside the company,
+
+102
+00:03:31,450 --> 00:03:33,667
+so knowledge stays when people move on.
+
+103
+00:03:33,750 --> 00:03:35,017
+And an applicant tracking system
+
+104
+00:03:35,100 --> 00:03:37,217
+scores each CV against the job,
+
+105
+00:03:37,300 --> 00:03:39,333
+so screening is faster and fairer.
+
+106
+00:03:39,417 --> 00:03:40,600
+The goal behind all of it:
+
+107
+00:03:40,683 --> 00:03:43,850
+HR that runs on data, and people free for the human work.
+
+108
+00:03:45,450 --> 00:03:47,825
+Still, in HR, the most important thing is not
+
+109
+00:03:47,908 --> 00:03:49,217
+to automate everything.
+
+110
+00:03:49,300 --> 00:03:50,342
+Hiring is about people.
+
+111
+00:03:50,425 --> 00:03:52,925
+For senior roles, I believe that meeting candidates
+
+112
+00:03:53,008 --> 00:03:55,775
+in person is the foundation of truly understanding them:
+
+113
+00:03:55,858 --> 00:03:57,658
+their motivations, their doubts,
+
+114
+00:03:57,742 --> 00:03:59,025
+and the way they lead others.
+
+115
+00:03:59,108 --> 00:04:01,058
+These are things no software can capture.
+
+116
+00:04:01,142 --> 00:04:03,542
+So I interview every senior candidate face to face,
+
+117
+00:04:03,625 --> 00:04:05,375
+from team leads to CTOs.
+
+118
+00:04:05,458 --> 00:04:07,742
+I go to meet them, listen to what really drives them,
+
+119
+00:04:07,825 --> 00:04:09,769
+and negotiate each offer in person.
+
+120
+00:04:11,450 --> 00:04:13,817
+That is the balance I bring to every search.
+
+121
+00:04:13,900 --> 00:04:15,075
+AI handles the volume,
+
+122
+00:04:15,158 --> 00:04:16,942
+so no good candidate is missed.
+
+123
+00:04:17,025 --> 00:04:19,875
+I bring the judgment, built in face-to-face conversations,
+
+124
+00:04:19,958 --> 00:04:21,425
+so the right person is chosen.
+
+125
+00:04:21,508 --> 00:04:22,958
+Together, they help companies hire
+
+126
+00:04:23,042 --> 00:04:24,925
+senior people who stay and grow.
+
+127
+00:04:25,008 --> 00:04:27,842
+I would be glad to talk about the next senior hire.
+

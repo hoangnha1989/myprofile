@@ -1,0 +1,21 @@
+{
+ "rest": ["rest"],
+ "virtual": ["virtual"],
+ "records": ["records"],
+ "timesheets": ["timesheets", "time"],
+ "managers": ["managers"],
+ "paperwork": ["paperwork"],
+ "chat": ["chat"],
+ "keeps": ["keeps"],
+ "inside": ["inside"],
+ "knowledge": ["knowledge"],
+ "move": ["move"],
+ "applicant": ["applicant"],
+ "scores": ["scores"],
+ "against": ["against"],
+ "faster": ["faster"],
+ "fairer": ["fairer"],
+ "goal": ["goal"],
+ "data": ["data"],
+ "human": ["human"]
+}

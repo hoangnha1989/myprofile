@@ -1,0 +1,6 @@
+{
+ "behind": ["behind"], "conversation": ["conversation"], "reports": ["reports"], "candidate": ["candidate"], "potential": ["potential"],
+ "fit": ["fit"], "role": ["role"], "score": ["score"], "changes": ["changes"], "share": ["share"], "strong": ["strong"],
+ "salary": ["salary"], "books": ["books"], "interview": ["interview"], "instead": ["instead"], "thousands": ["thousands"],
+ "one": ["one"], "report": {"w": ["report"], "nth": 1}, "matter": ["matter"]
+}

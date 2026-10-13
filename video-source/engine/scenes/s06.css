@@ -1,0 +1,44 @@
+/* S06 gold: centred SG headline, blueprint card (120..1800 x 264..478, stage labels above the track, numbers below),
+   bottom row of six equal cards 252 x 280 (32 px gap, group centred on x=960) whose M plates share one 284 px grid. */
+#s06 .s06-grp { position:absolute; left:0; top:0; width:1920px; height:1080px; }
+#s06 .s06-eb { position:absolute; left:960px; top:122px; transform:translateX(-50%); font-size:22px; white-space:nowrap; }
+#s06 .s06-hl { position:absolute; left:960px; top:158px; transform:translateX(-50%); font-size:72px; white-space:nowrap; color:var(--ink); }
+#s06 .s06-hl .line { padding-bottom:6px; }
+#s06 .s06-hl .n23 { font-variant-numeric:tabular-nums;
+  color:transparent; background:var(--g-text); -webkit-background-clip:text; background-clip:text; }
+#s06 .s06-bp { left:120px; top:264px; width:1680px; height:214px; overflow:hidden; }
+#s06 .s06-bp .grid { position:absolute; inset:0; border-radius:22px;
+  background-image:linear-gradient(to right, rgba(37,161,219,.06) 1px, transparent 1px), linear-gradient(to bottom, rgba(37,161,219,.06) 1px, transparent 1px);
+  background-size:40px 40px; background-position:-1px -1px; }
+#s06 .s06-bp .cn { position:absolute; width:18px; height:18px; border-color:var(--acc); border-style:solid; border-width:0; opacity:.7; }
+#s06 .s06-bp .cn.a { left:16px; top:16px; border-left-width:2px; border-top-width:2px; }
+#s06 .s06-bp .cn.b { right:16px; top:16px; border-right-width:2px; border-top-width:2px; }
+#s06 .s06-bp .cn.c { left:16px; bottom:16px; border-left-width:2px; border-bottom-width:2px; }
+#s06 .s06-bp .cn.d { right:16px; bottom:16px; border-right-width:2px; border-bottom-width:2px; }
+#s06 .s06-svg { position:absolute; left:0; top:0; overflow:visible; }
+#s06 .s06-svg path { fill:none; stroke-linecap:round; }
+#s06 .s06-svg .track { stroke:var(--line2); stroke-width:2; stroke-dasharray:2 8; }
+#s06 .s06-svg .run { stroke:var(--acc); stroke-width:3; }
+#s06 .s06-svg .grow { stroke:#F47E2A; stroke-width:4; }
+/* stage label on top, bracket under it opening down toward its nodes */
+#s06 .s06-st { position:absolute; height:50px; }
+#s06 .s06-st .lbl { position:absolute; left:0; top:0; font-size:22px; font-weight:600; white-space:nowrap; color:var(--ink); }
+#s06 .s06-st .lbl b { color:var(--acc3); font-weight:700; margin-right:10px; }
+#s06 .s06-st .br { position:absolute; left:0; right:0; top:38px; height:12px; border:2px solid #94A3B8; border-bottom:none; opacity:.7; border-radius:6px 6px 0 0; }
+#s06 .s06-nd { position:absolute; width:26px; height:26px; }
+#s06 .s06-nd .core { position:absolute; inset:3px; border-radius:50%; background:#FFFFFF; border:2.5px solid var(--acc3); display:block; }
+#s06 .s06-nd.ms .core { border-radius:4px; transform:rotate(45deg); }
+#s06 .s06-nd .ring { position:absolute; inset:0; border-radius:50%; border:2px solid var(--acc); opacity:0; display:block; }
+#s06 .s06-no { position:absolute; width:40px; text-align:center; font-size:21px; color:var(--body); }
+#s06 .s06-pulse { position:absolute; width:18px; height:18px; border-radius:50%; background:var(--acc); box-shadow:0 0 0 5px rgba(37,161,219,.18), 0 2px 8px rgba(27,127,176,.35); display:block; }
+#s06 .s06-pb { position:absolute; width:44px; height:44px; border-radius:50%; background:linear-gradient(135deg, #EE7A2C 0%, #D9631A 52%, #C2520F 100%);
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 5px rgba(224,110,32,.14), 0 6px 14px -4px rgba(217,99,26,.45); }
+#s06 .s06-pb .ring { position:absolute; inset:0; border-radius:50%; border:2px solid var(--acc2); opacity:0; }
+#s06 .s06-tip { position:absolute; width:14px; height:14px; border-radius:50%; background:#F47E2A; box-shadow:0 0 0 5px rgba(244,126,42,.16); display:block; }
+/* bottom row: six equal cards, plate on top, label block centred under it */
+#s06 .s06-card { top:510px; width:252px; height:280px; }
+#s06 .s06-pl { position:absolute; left:8px; top:186px; width:236px; height:64px; display:flex; align-items:center; justify-content:center; text-align:center;
+  font-family:"MR"; font-weight:700; font-size:24px; line-height:30px; color:var(--ink); white-space:nowrap; }
+#s06 .s06-pl.acc { color:var(--acc2); }
+#s06 .s06-ring { position:absolute; inset:-4px; border-radius:30px; border:2px solid var(--acc); opacity:0; display:block; }
+#s06 .s06-ring.o { border-color:#F47E2A; }

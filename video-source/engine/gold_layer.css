@@ -1,0 +1,59 @@
+/* ===== GOLD DESIGN LAYER (GPRFLEXEYE v4 design system, user 2026-10-13: "icon và hình ảnh 3D shadow, design như lúc đầu") =====
+   3D clay icons on white plates (nx.plate / nx.hero), gradient-edge cards with layered 3D shadows, Space Grotesk UPPERCASE
+   headlines, Manrope body, white caption pill with orange karaoke. Orange and blue never blend straight (khaki midpoint):
+   blends go through light stops only. */
+@font-face { font-family: "SG"; src: url("assets/fonts/spacegrotesk.woff2") format("woff2"); font-weight: 300 700; }
+@font-face { font-family: "MR"; src: url("assets/fonts/manrope.woff2") format("woff2"); font-weight: 200 800; }
+:root {
+  --fx-g-edge: linear-gradient(135deg, rgba(244,126,42,.55), rgba(255,255,255,.2) 45%, rgba(37,161,219,.6));
+  --fx-sh-3d: 0 1px 2px rgba(15,23,42,.06), 0 10px 20px -8px rgba(15,23,42,.14), 0 28px 56px -22px rgba(27,127,176,.38), 0 22px 44px -30px rgba(244,126,42,.40);
+  --g-edge: var(--fx-g-edge);
+  --g-text: linear-gradient(180deg, #FBA65A 0%, #F47E2A 52%, #DD6417 100%);
+  --g-blue: linear-gradient(135deg, #5CC4F0 0%, #25A1DB 55%, #1B7FB0 100%);
+  --sh-3d: inset 0 1px 0 rgba(255,255,255,.95), 0 1px 2px rgba(15,23,42,.06), 0 10px 20px -8px rgba(15,23,42,.14),
+           0 28px 56px -22px rgba(27,127,176,.38), 0 22px 44px -30px rgba(244,126,42,.40);
+  --sh-3d-hi: inset 0 1px 0 rgba(255,255,255,.95), 0 2px 4px rgba(15,23,42,.08), 0 16px 30px -10px rgba(15,23,42,.18),
+           0 40px 80px -28px rgba(27,127,176,.45), 0 30px 60px -34px rgba(244,126,42,.50);
+}
+#root { font-family: "MR", sans-serif; }
+/* headlines: Space Grotesk 700 UPPERCASE (gold G2) */
+.hl { font-family: "SG" !important; font-weight: 700 !important; text-transform: uppercase; letter-spacing: .01em !important; line-height: 1.1 !important; }
+.hl em { color: transparent !important; background: var(--g-text); -webkit-background-clip: text; background-clip: text; padding: 0 .04em; margin: 0 -.04em; }
+.bd { font-family: "MR"; font-weight: 600; }
+.eyebrow { font-family: "SG"; font-weight: 600; letter-spacing: .22em; color: #DD6417; }
+/* cards + chips: white face, gradient edge, layered 3D shadow */
+.hc { border: 1.5px solid transparent !important; background: linear-gradient(180deg, #FFFFFF 0%, #F6F9FC 100%) padding-box, var(--g-edge) border-box !important;
+  box-shadow: var(--sh-3d) !important; border-radius: 24px; }
+.hc.acc { box-shadow: var(--sh-3d-hi) !important; }
+.chip { border: 1.5px solid transparent !important; background: linear-gradient(180deg, #FFFFFF, #F6F9FC) padding-box, var(--g-edge) border-box !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), 0 6px 14px -6px rgba(15,23,42,.18) !important; font-family: "SG"; font-weight: 700; color: var(--ink); }
+.chip.acc { background: linear-gradient(135deg, #EE7A2C 0%, #D9631A 52%, #C2520F 100%) !important; color: #fff !important; border: none !important;
+  text-shadow: 0 1px 1px rgba(110,40,0,.35); box-shadow: inset 0 1px 0 rgba(255,255,255,.35), 0 10px 22px -8px rgba(217,99,26,.6) !important; }
+.num { font-family: "SG"; font-weight: 700; }
+/* caption pill (gold): white pill, gradient edge, spoken word orange then ink */
+#capband { display: none; }
+#caps { top: 902px !important; height: 120px !important; }
+.cap { padding: 12px 30px; border-radius: 16px; font-family: "MR" !important; font-weight: 600 !important; font-size: 35px !important; line-height: 1.32 !important;
+  color: rgba(30,41,59,.42) !important; max-width: 1360px !important;
+  background: linear-gradient(180deg, #FFFFFF, #F6F9FC) padding-box, var(--g-edge) border-box; border: 1.5px solid transparent; box-shadow: var(--sh-3d); }
+/* screenshot pop-in card in the same material */
+.nx-shot { border: 1.5px solid transparent !important; background: linear-gradient(180deg, #FFFFFF, #F6F9FC) padding-box, var(--g-edge) border-box !important;
+  box-shadow: var(--sh-3d-hi) !important; }
+.nx-shot .bar { background: linear-gradient(180deg, #FFFFFF, #F1F6FB) !important; }
+
+/* personal brand mark, fixed top-right for the whole film (user 2026-10-13: name + email as the video's logo;
+   "chuyên nghiệp màu xanh dương nhạt gradient trắng cam"). Light-blue-to-white plate, gradient edge, orange monogram. */
+#brand { position:absolute; right:56px; top:40px; display:flex; align-items:center; gap:14px; z-index:60; opacity:0; visibility:hidden;
+  padding:8px 20px 8px 8px; border-radius:18px; border:1.5px solid transparent;
+  background: linear-gradient(120deg, #DDF1FB 0%, #F3FAFE 46%, #FFFFFF 100%) padding-box,
+              linear-gradient(120deg, rgba(37,161,219,.55), rgba(255,255,255,.4) 55%, rgba(244,126,42,.65)) border-box;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), 0 8px 18px -10px rgba(27,127,176,.45), 0 14px 26px -18px rgba(244,126,42,.35); }
+#brand .mk { width:44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; position:relative;
+  background: linear-gradient(145deg, #FFFFFF 0%, #E4F4FC 60%, #CDEBF8 100%);
+  box-shadow: inset 0 1px 0 #fff, inset 0 0 0 1px rgba(37,161,219,.28), 0 6px 12px -6px rgba(27,127,176,.5); }
+#brand .mk span { font-family:"SG"; font-weight:700; font-size:25px; line-height:1;
+  color:transparent; background: linear-gradient(180deg, #FBA65A 0%, #F47E2A 52%, #DD6417 100%); -webkit-background-clip:text; background-clip:text; }
+#brand .mk::after { content:""; position:absolute; left:11px; right:11px; bottom:7px; height:2.5px; border-radius:2px; background:#25A1DB; opacity:.85; }
+#brand .tx { display:flex; flex-direction:column; line-height:1.15; gap:1px; }
+#brand .tx b { font-family:"SG"; font-weight:700; font-size:20px; letter-spacing:.07em; color:#1E293B; }
+#brand .tx i { font-family:"MR"; font-style:normal; font-weight:600; font-size:20px; color:#1B7FB0; }

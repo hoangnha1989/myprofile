@@ -1,0 +1,21 @@
+{
+ "still": ["still"],
+ "automate": ["automate"],
+ "everything": ["everything"],
+ "hiring": ["hiring"],
+ "people": ["people"],
+ "senior": ["senior"],
+ "meeting": ["meeting"],
+ "understanding": ["understanding"],
+ "motivations": ["motivations"],
+ "doubts": ["doubts"],
+ "lead": ["lead"],
+ "software": ["software"],
+ "interview": ["interview"],
+ "face": ["face"],
+ "team": ["team"],
+ "ctos": ["ctos", "cto"],
+ "listen": ["listen"],
+ "negotiate": ["negotiate"],
+ "offer": ["offer"]
+}

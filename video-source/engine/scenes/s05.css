@@ -1,0 +1,104 @@
+#s05 .s05-beat { position:absolute; inset:0; }
+/* centred eyebrow + one-line SG uppercase headline (gold) */
+#s05 .s05-ew { position:absolute; left:0; top:150px; width:1920px; text-align:center; }
+#s05 .s05-eb { display:inline-block; font-size:22px; white-space:nowrap; }
+#s05 .s05-hw { position:absolute; left:0; top:186px; width:1920px; text-align:center; }
+#s05 .s05-hl { display:inline-block; font-size:68px; color:var(--ink); white-space:nowrap; }
+#s05 .s05-hl .line { padding-bottom:4px; vertical-align:top; }
+#s05 .s05-hl .line .in { transform-origin:50% 60%; }
+#s05 .s05-hlb { position:absolute; left:0; right:0; top:0; margin:0 auto; width:max-content; }
+
+/* beat 1: candidate grid + clay magnifier */
+#s05 .s05-field { position:absolute; left:312px; top:316px; width:1296px; height:464px; }
+/* rest look = the gold grid's white-grey clay figures; the lit trio turns to full blue clay */
+#s05 .s05-cd { position:absolute; width:58px; height:58px; display:block; filter:grayscale(1) brightness(1.08);
+  -webkit-filter:grayscale(1) brightness(1.08); }
+#s05 .s05-halo { position:absolute; width:68px; height:68px; border-radius:50%; display:block; z-index:1;
+  background:radial-gradient(closest-side, rgba(244,126,42,.20), rgba(244,126,42,.06) 70%, rgba(244,126,42,0));
+  box-shadow:inset 0 0 0 2px rgba(244,126,42,.55); }
+#s05 .s05-nylw { position:absolute; inset:0; z-index:4; }
+#s05 .s05-nyl { justify-content:center; z-index:4; font-size:22px; }
+
+/* beat 2: Hiring manager -> Criteria -> Interview (equal cards) */
+#s05 .s05-c2 .ttl { position:absolute; left:0; right:0; top:236px; text-align:center; color:var(--ink); font-weight:600; }
+#s05 .s05-c2 .sub { position:absolute; left:0; right:0; top:272px; text-align:center; font-size:26px; color:var(--body); }
+#s05 .s05-c2 .box { width:32px; height:32px; border-radius:9px; border:1.5px solid var(--line2); background:#FFFFFF;
+  display:flex; align-items:center; justify-content:center; flex:none; }
+#s05 .s05-iv .tks { position:absolute; left:114px; top:332px; display:flex; gap:14px; }
+#s05 .s05-mg .mgb { position:absolute; left:0; right:0; top:332px; height:32px; display:flex; align-items:center; justify-content:center; gap:14px; }
+#s05 .s05-mg .bar { height:10px; border-radius:5px; background:var(--line2); display:block; }
+#s05 .s05-ck .rows { position:absolute; left:40px; top:286px; width:320px; display:grid; grid-template-columns:1fr 1fr; column-gap:24px; row-gap:14px; }
+#s05 .s05-ck .row { display:flex; align-items:center; gap:12px; height:32px; }
+#s05 .s05-ck .bar { height:10px; border-radius:5px; background:var(--line2); display:block; }
+#s05 .s05-arr { position:absolute; left:0; top:0; overflow:visible; }
+#s05 .s05-arr path { fill:none; stroke:var(--acc); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+
+/* beat 3: Screened card | funnel | picks */
+#s05 .s05-row { position:absolute; inset:0; }
+#s05 .s05-scr .n span { display:inline-block; }
+#s05 .s05-scr .n .b { white-space:nowrap; vertical-align:top; }
+#s05 .s05-scr .n { position:absolute; left:0; right:0; top:178px; text-align:center; font-size:60px; line-height:1; color:var(--ink); }
+#s05 .s05-scr .lbl { position:absolute; left:0; right:0; top:252px; text-align:center; color:var(--acc3); font-weight:600; }
+#s05 .s05-fun { position:absolute; width:600px; height:420px; }
+#s05 .s05-fun svg { position:absolute; inset:0; overflow:visible; filter:drop-shadow(0 14px 18px rgba(27,127,176,.16)); }
+#s05 .s05-fun path.fill { fill:url(#s05g); stroke:none; }
+#s05 .s05-fun path.w { fill:none; stroke:url(#s05w); stroke-width:4; stroke-linecap:round; }
+#s05 .s05-fd { position:absolute; width:18px; height:18px; border-radius:50%;
+  background-image:radial-gradient(circle at 35% 30%, #FFFFFF, #9FB3C8 60%, #7C8FA6); box-shadow:0 2px 4px rgba(15,23,42,.18); }
+#s05 .s05-pick { position:absolute; inset:0; }
+#s05 .s05-conn { position:absolute; left:0; top:0; overflow:visible; }
+#s05 .s05-conn path { fill:none; stroke:#25A1DB; stroke-width:4; stroke-linecap:round; opacity:.9; }
+#s05 .s05-fd { z-index:2; }
+#s05 .s05-ph { position:absolute; left:1260px; top:328px; width:380px; justify-content:center; display:flex; align-items:baseline; gap:16px; white-space:nowrap; }
+/* the gradient is painted on the padding box: pad it past the glyph overhang (the flag of the 1) and cancel with margin */
+#s05 .s05-ph .num { font-size:60px; line-height:1; color:transparent; background:var(--g-text); -webkit-background-clip:text; background-clip:text;
+  padding:8px 8px 8px 8px; margin:-8px -8px -8px -8px; }
+#s05 .s05-ph .lbl { color:#DD6417; font-weight:600; font-size:22px; }
+#s05 .s05-pc .rs { left:164px; top:36px; font-size:22px; }
+#s05 .s05-pc .fit { position:absolute; left:164px; top:106px; display:flex; align-items:center; gap:14px; }
+#s05 .s05-pc .fit .lbl { color:var(--muted); }
+#s05 .s05-pc .fit .trk { width:136px; height:10px; border-radius:5px; background:var(--line); display:block; overflow:hidden; }
+#s05 .s05-pc .fit i { display:block; height:100%; border-radius:5px; background:var(--g-blue); transform-origin:0 50%; }
+
+/* beat 4: leaders' time ring */
+#s05 .s05-ld { position:absolute; width:280px; height:280px; }
+#s05 .s05-ld .clk { position:absolute; left:0; top:0; overflow:visible; }
+#s05 .s05-ld .trk { fill:rgba(255,255,255,.7); stroke:var(--line); stroke-width:6; }
+#s05 .s05-ld .tick { stroke:var(--line2); stroke-width:4; stroke-linecap:round; }
+#s05 .s05-ld .prg { fill:none; stroke:var(--acc); stroke-width:6; stroke-linecap:round; }
+#s05 .s05-ld .ring { position:absolute; inset:0; border-radius:50%; border:2px solid var(--acc); opacity:0; display:block; }
+#s05 .s05-ldl { position:absolute; left:1140px; top:744px; width:280px; text-align:center; }
+#s05 .s05-ldl .lbl { display:inline-block; color:var(--ink); font-weight:600; font-size:22px; }
+#s05 .s05-links { position:absolute; left:0; top:0; overflow:visible; }
+#s05 .s05-links path { fill:none; stroke:var(--acc); stroke-width:3; stroke-linecap:round; opacity:.85; }
+#s05 .s05-hl em.na, #s05 .s05-hl em.nb { display:inline-block; }
+/* orange gradient numerals/words: wider paint box so no glyph edge falls outside the clipped gradient */
+#s05 .s05-hl em { padding:0 .12em; margin:0 -.12em; }
+/* "worth meeting" pulses (scale 1.06, anchored on its left edge so it never runs into "people") inside its line mask:
+   room on the right and on top, cancelled by margins */
+#s05 .s05-hl .s05-pls { padding:6px .5em 4px 0; margin:-6px -.5em 0 0; }
+#s05 .s05-hl .s05-pls em { display:inline-block; transform-origin:0 60%; }
+
+/* beat 5: the proof cards (OFFERS | levels staircase | IT CVs) */
+/* the gradient is painted on the padding box: pad past the glyph overhang and cancel with margin */
+#s05 .s05-p5 .pn { position:absolute; left:0; right:0; top:172px; text-align:center; font-size:104px; line-height:112px; font-weight:700;
+  color:transparent; background:var(--g-text); -webkit-background-clip:text; background-clip:text; width:max-content; margin:0 auto; padding:0 10px; }
+/* sentence case: "IT CVs" must not read as "CVS" */
+#s05 .s05-p5 .pl { position:absolute; left:0; right:0; top:294px; text-align:center; font-size:28px; font-weight:700; letter-spacing:.04em; text-transform:none; color:var(--ink); }
+#s05 .s05-p5 .trk { position:absolute; left:54px; top:362px; width:372px; height:12px; display:flex; gap:8px; }
+#s05 .s05-p5 .trk .sg { flex:1; height:12px; border-radius:6px; display:block; background:#E2E8F0; }
+#s05 .s05-p5 .trk .bar { width:100%; height:12px; border-radius:6px; display:block; background:var(--g-blue); transform-origin:0 50%;
+  box-shadow:inset 0 0 0 0 transparent; }
+#s05 .s05-p5 .trk:has(.bar) { background:#E2E8F0; border-radius:6px; }
+#s05 .s05-p5 .tl { position:absolute; left:0; right:0; top:394px; text-align:center; color:var(--acc3); font-weight:600; }
+/* level chip: a faint outline (ghost) until its word, then the gold chip face fills in under its text */
+#s05 .s05-lv { position:absolute; display:flex; align-items:center; justify-content:center; gap:12px; height:40px; border-radius:20px;
+  font-family:"SG"; font-weight:700; font-size:22px; letter-spacing:.04em; white-space:nowrap; }
+#s05 .s05-lv .gh, #s05 .s05-lv .fc { position:absolute; inset:0; border-radius:inherit; display:block; }
+#s05 .s05-lv .gh { border:1.5px solid #CBD5E1; background:rgba(255,255,255,.4); }
+#s05 .s05-lv .fc { border:1.5px solid transparent; background:linear-gradient(180deg, #FFFFFF, #F6F9FC) padding-box, var(--g-edge) border-box;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95), 0 6px 14px -6px rgba(15,23,42,.18); }
+#s05 .s05-lv.m .fc { border:none; background:linear-gradient(135deg, #EE7A2C 0%, #D9631A 52%, #C2520F 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.35), 0 10px 22px -8px rgba(217,99,26,.6); }
+#s05 .s05-lv .tx, #s05 .s05-lv .d { position:relative; }
+#s05 .s05-lv .d { width:12px; height:12px; border-radius:50%; display:block; flex:none; background:#CBD5E1; }

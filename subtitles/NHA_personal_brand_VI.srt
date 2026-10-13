@@ -1,0 +1,552 @@
+1
+00:00:01,058 --> 00:00:02,133
+Hơn 11 năm
+
+2
+00:00:02,217 --> 00:00:04,700
+làm tuyển dụng đã dạy tôi một điều:
+
+3
+00:00:04,783 --> 00:00:06,458
+tuyển dụng giỏi là nhờ khả năng nhận định,
+
+4
+00:00:06,542 --> 00:00:08,450
+không phải số lượng.
+Và điều đó dẫn tôi đến một câu hỏi
+
+5
+00:00:08,533 --> 00:00:10,325
+đã định hướng công việc của tôi
+từ đó đến nay.
+
+6
+00:00:10,408 --> 00:00:12,298
+Nếu khả năng nhận định ấy
+có thể nhân rộng thì sao?
+
+7
+00:00:13,792 --> 00:00:15,550
+Xin bắt đầu bằng việc tôi là ai.
+
+8
+00:00:15,633 --> 00:00:18,083
+Tôi lãnh đạo mảng tuyển dụng tại TP.HCM,
+
+9
+00:00:18,167 --> 00:00:19,100
+làm việc bằng tiếng Việt,
+
+10
+00:00:19,183 --> 00:00:20,350
+tiếng Anh và tiếng Nhật.
+
+11
+00:00:22,150 --> 00:00:24,125
+Con đường đến đây
+cho tôi một góc nhìn rộng
+
+12
+00:00:24,208 --> 00:00:25,700
+về con người và kinh doanh.
+
+13
+00:00:25,783 --> 00:00:28,392
+Tôi bắt đầu ở ngân hàng,
+mảng thanh toán quốc tế.
+
+14
+00:00:28,475 --> 00:00:30,975
+Sau đó, tôi xây dựng sự nghiệp
+trong tuyển dụng nhân tài:
+
+15
+00:00:31,067 --> 00:00:33,325
+tôi điều hành một chi nhánh IT
+khoảng 30 người
+
+16
+00:00:33,408 --> 00:00:34,642
+cho một công ty Nhật,
+
+17
+00:00:34,725 --> 00:00:37,450
+và có 5 năm làm Trưởng phòng
+Nhân sự và Tuyển dụng.
+
+18
+00:00:37,533 --> 00:00:39,542
+Hiện nay, tôi tuyển
+nhân sự công nghệ cấp cao
+
+19
+00:00:39,625 --> 00:00:41,608
+cho một công ty executive search của Mỹ.
+
+20
+00:00:41,692 --> 00:00:43,342
+Tôi cũng từng chia sẻ
+tại các sự kiện trong ngành
+
+21
+00:00:43,425 --> 00:00:46,200
+về cách ứng dụng AI
+vào nhân sự và tuyển dụng.
+
+22
+00:00:48,075 --> 00:00:49,483
+Qua tất cả những vai trò đó,
+
+23
+00:00:49,567 --> 00:00:50,917
+có một bài học cứ lặp lại.
+
+24
+00:00:51,000 --> 00:00:52,483
+CV ghi lại quá khứ,
+
+25
+00:00:52,567 --> 00:00:53,433
+nhưng không bao giờ là con người trọn vẹn.
+
+26
+00:00:53,517 --> 00:00:55,200
+Vì vậy, trước khi bắt đầu tìm kiếm,
+
+27
+00:00:55,283 --> 00:00:56,950
+tôi cùng khách hàng định nghĩa vị trí:
+
+28
+00:00:57,033 --> 00:00:58,217
+kỹ năng bắt buộc, đội ngũ,
+
+29
+00:00:58,300 --> 00:01:00,367
+và người quản lý
+mà nhân sự mới sẽ làm cùng.
+
+30
+00:01:00,450 --> 00:01:01,983
+Làm đúng bước này ngay từ đầu
+giúp tiết kiệm hàng tuần
+
+31
+00:01:02,067 --> 00:01:04,067
+tìm kiếm sai hướng.
+
+32
+00:01:05,525 --> 00:01:06,717
+Khi vị trí đã rõ,
+
+33
+00:01:06,800 --> 00:01:09,117
+cuộc tìm kiếm bắt đầu.
+Tôi tiếp cận trực tiếp nhân tài,
+
+34
+00:01:09,200 --> 00:01:10,900
+kể cả những người chưa có ý định tìm việc,
+
+35
+00:01:10,983 --> 00:01:12,567
+và phỏng vấn từng ứng viên theo
+
+36
+00:01:12,650 --> 00:01:14,508
+chính tiêu chí của hiring manager.
+
+37
+00:01:14,592 --> 00:01:16,217
+Trong số 20 đến 40 ứng viên,
+
+38
+00:01:16,300 --> 00:01:17,858
+chỉ 1 hoặc 2 người được giới thiệu,
+
+39
+00:01:17,942 --> 00:01:19,550
+mỗi người kèm lý do phù hợp rõ ràng.
+
+40
+00:01:19,633 --> 00:01:21,683
+Nhờ vậy, lãnh đạo chỉ dành thời gian
+
+41
+00:01:21,767 --> 00:01:23,100
+cho những người đáng gặp.
+
+42
+00:01:23,183 --> 00:01:24,600
+Trong 10 năm, cách làm này đã mang lại
+
+43
+00:01:24,683 --> 00:01:26,067
+hơn 800 offer,
+
+44
+00:01:26,150 --> 00:01:29,058
+từ kỹ sư junior, senior
+đến trưởng nhóm và quản lý,
+
+45
+00:01:29,142 --> 00:01:32,708
+dựa trên cơ sở dữ liệu nhân tài IT
+gần 5.000 CV.
+
+46
+00:01:33,992 --> 00:01:35,433
+Để có thể lặp lại cách làm này,
+
+47
+00:01:35,517 --> 00:01:36,767
+tôi xây dựng phương pháp của riêng mình:
+
+48
+00:01:36,850 --> 00:01:38,925
+quy trình tuyển dụng 23 bước,
+
+49
+00:01:39,008 --> 00:01:41,883
+có checklist, chỉ số và báo cáo
+ở từng mốc.
+
+50
+00:01:41,967 --> 00:01:43,533
+Và nó không dừng lại ở offer.
+
+51
+00:01:43,617 --> 00:01:45,367
+Tôi theo sát từng người
+qua giai đoạn thử việc,
+
+52
+00:01:45,450 --> 00:01:47,050
+vì một lần tuyển dụng chỉ thành công
+
+53
+00:01:47,133 --> 00:01:48,925
+khi người đó ở lại và phát triển.
+
+54
+00:01:50,692 --> 00:01:53,583
+Nhưng quy trình làm thủ công
+chỉ mở rộng được đến một mức.
+
+55
+00:01:53,667 --> 00:01:55,506
+Ứng viên giỏi phải chờ phản hồi quá lâu,
+
+56
+00:01:55,589 --> 00:01:57,983
+việc theo dõi bị sót, và khả năng
+nhận định quý giá bị tiêu hao
+
+57
+00:01:58,067 --> 00:01:59,100
+vào việc lặp lại.
+
+58
+00:01:59,183 --> 00:02:01,717
+Với nhiều năm làm cùng kỹ sư
+và nhiều năm làm nhân sự,
+
+59
+00:02:01,800 --> 00:02:03,183
+tôi tự tay xây dựng hệ thống,
+
+60
+00:02:03,267 --> 00:02:05,683
+với một mục đích:
+để phần mềm gánh việc lặp lại,
+
+61
+00:02:05,767 --> 00:02:07,708
+để con người tập trung vào quyết định.
+
+62
+00:02:09,492 --> 00:02:11,867
+Thứ đầu tiên tôi xây
+là một ứng dụng đăng nhập
+
+63
+00:02:11,950 --> 00:02:14,117
+nhiều tài khoản tuyển dụng
+trên cùng một màn hình,
+
+64
+00:02:14,200 --> 00:02:17,633
+và dùng AI agent để mở rộng kết nối
+trên tất cả tài khoản.
+
+65
+00:02:17,717 --> 00:02:19,200
+Agent được huấn luyện để trả lời
+
+66
+00:02:19,283 --> 00:02:20,283
+y như một nhà tuyển dụng thật,
+
+67
+00:02:20,367 --> 00:02:22,033
+cả ngày lẫn đêm, bằng mọi ngôn ngữ,
+
+68
+00:02:22,117 --> 00:02:24,475
+và không ứng viên nào bị liên hệ hai lần.
+
+69
+00:02:24,558 --> 00:02:27,567
+Mục đích: không bỏ sót
+hay để ứng viên giỏi phải chờ,
+
+70
+00:02:27,650 --> 00:02:30,372
+và một người tuyển dụng
+có độ phủ như cả một đội.
+
+71
+00:02:31,883 --> 00:02:33,408
+Sau mỗi cuộc hội thoại,
+
+72
+00:02:33,492 --> 00:02:34,725
+nó báo cáo lại cho tôi
+
+73
+00:02:34,808 --> 00:02:35,792
+theo từng ứng viên:
+
+74
+00:02:35,875 --> 00:02:38,508
+mức tiềm năng, độ phù hợp
+với từng vị trí đang tuyển,
+
+75
+00:02:38,592 --> 00:02:40,925
+và điểm số thay đổi theo mọi điều
+ứng viên chia sẻ.
+
+76
+00:02:41,008 --> 00:02:42,958
+Khi độ phù hợp cao và mức lương khớp,
+
+77
+00:02:43,042 --> 00:02:44,092
+nó đặt lịch gọi với tôi,
+
+78
+00:02:44,175 --> 00:02:46,108
+để tôi trực tiếp phỏng vấn ứng viên.
+
+79
+00:02:46,192 --> 00:02:48,025
+Thay vì đọc hàng nghìn tin nhắn,
+
+80
+00:02:48,108 --> 00:02:49,225
+tôi đọc một báo cáo rõ ràng,
+
+81
+00:02:49,308 --> 00:02:51,919
+và dành thời gian cho những ứng viên
+thật sự đáng giá.
+
+82
+00:02:53,358 --> 00:02:55,517
+Mỗi ngày, nó còn tự xem lại
+công việc của mình,
+
+83
+00:02:55,600 --> 00:02:57,025
+học hỏi từ từng cuộc hội thoại,
+
+84
+00:02:57,108 --> 00:02:58,183
+tự sửa lỗi,
+
+85
+00:02:58,267 --> 00:02:59,767
+và đề xuất cải tiến để tôi phê duyệt,
+
+86
+00:02:59,850 --> 00:03:01,567
+nhờ đó chất lượng tăng lên mỗi tuần
+
+87
+00:03:01,650 --> 00:03:03,358
+mà con người vẫn nắm quyền kiểm soát.
+
+88
+00:03:03,442 --> 00:03:04,742
+Và mọi hành động đều được đo lường.
+
+89
+00:03:04,825 --> 00:03:06,022
+Trung bình mỗi 30 ngày:
+
+90
+00:03:06,105 --> 00:03:07,098
+190 CV,
+
+91
+00:03:07,182 --> 00:03:09,433
+160 ứng viên tiềm năng hàng đầu,
+
+92
+00:03:09,517 --> 00:03:11,742
+và 150 cuộc gọi phỏng vấn.
+
+93
+00:03:11,825 --> 00:03:13,283
+Một đội sourcing không bao giờ nghỉ,
+
+94
+00:03:13,367 --> 00:03:14,433
+báo cáo bằng số liệu,
+
+95
+00:03:14,517 --> 00:03:15,517
+chứ không bằng cảm tính.
+
+96
+00:03:17,275 --> 00:03:20,192
+Cùng ý tưởng đó giờ đây
+chạy qua mọi mảng nhân sự.
+
+97
+00:03:20,275 --> 00:03:22,517
+Tôi xây một văn phòng ảo
+ghi nhận làm việc từ xa
+
+98
+00:03:22,600 --> 00:03:24,333
+và tự động tính công,
+
+99
+00:03:24,417 --> 00:03:27,508
+để quản lý thấy thời gian làm việc thật
+mà không cần giấy tờ.
+
+100
+00:03:27,592 --> 00:03:29,367
+Một nền tảng chat giữ mọi cuộc hội thoại
+
+101
+00:03:29,450 --> 00:03:31,367
+với ứng viên trong nội bộ công ty,
+
+102
+00:03:31,450 --> 00:03:33,667
+để tri thức ở lại khi nhân sự rời đi.
+
+103
+00:03:33,750 --> 00:03:35,017
+Và một hệ thống quản lý ứng viên
+
+104
+00:03:35,100 --> 00:03:37,217
+chấm điểm từng CV so với JD,
+
+105
+00:03:37,300 --> 00:03:39,333
+để việc sàng lọc
+nhanh hơn và công bằng hơn.
+
+106
+00:03:39,417 --> 00:03:40,600
+Mục tiêu chung của tất cả:
+
+107
+00:03:40,683 --> 00:03:43,850
+nhân sự vận hành bằng dữ liệu, con người
+rảnh tay cho phần việc con người.
+
+108
+00:03:45,450 --> 00:03:47,825
+Tuy vậy, với nhân sự,
+điều quan trọng nhất không phải
+
+109
+00:03:47,908 --> 00:03:49,217
+là tự động hoá mọi thứ.
+
+110
+00:03:49,300 --> 00:03:50,342
+Tuyển dụng là chuyện con người.
+
+111
+00:03:50,425 --> 00:03:52,925
+Với vị trí cấp cao, tôi tin rằng
+gặp trực tiếp ứng viên
+
+112
+00:03:53,008 --> 00:03:55,775
+là nền tảng để thật sự hiểu họ:
+
+113
+00:03:55,858 --> 00:03:57,658
+động lực, những băn khoăn,
+
+114
+00:03:57,742 --> 00:03:59,025
+và cách họ dẫn dắt người khác.
+
+115
+00:03:59,108 --> 00:04:01,058
+Đó là những điều
+không phần mềm nào nắm bắt được.
+
+116
+00:04:01,142 --> 00:04:03,542
+Vì vậy, tôi phỏng vấn trực tiếp
+từng ứng viên cấp cao,
+
+117
+00:04:03,625 --> 00:04:05,375
+từ team lead đến CTO.
+
+118
+00:04:05,458 --> 00:04:07,742
+Tôi đến gặp họ, lắng nghe
+điều thực sự thúc đẩy họ,
+
+119
+00:04:07,825 --> 00:04:09,769
+và trực tiếp đàm phán từng offer.
+
+120
+00:04:11,450 --> 00:04:13,817
+Đó là sự cân bằng
+tôi mang vào mọi cuộc tìm kiếm.
+
+121
+00:04:13,900 --> 00:04:15,075
+AI lo phần số lượng,
+
+122
+00:04:15,158 --> 00:04:16,942
+để không bỏ sót ứng viên giỏi.
+
+123
+00:04:17,025 --> 00:04:19,875
+Tôi mang đến khả năng nhận định,
+hình thành qua những cuộc gặp trực tiếp,
+
+124
+00:04:19,958 --> 00:04:21,425
+để chọn đúng người.
+
+125
+00:04:21,508 --> 00:04:22,958
+Kết hợp lại, cả hai giúp
+doanh nghiệp tuyển được
+
+126
+00:04:23,042 --> 00:04:24,925
+nhân sự cấp cao ở lại và phát triển.
+
+127
+00:04:25,008 --> 00:04:27,842
+Tôi rất sẵn lòng trao đổi
+về vị trí cấp cao tiếp theo.

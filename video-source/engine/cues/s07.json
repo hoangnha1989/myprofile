@@ -1,0 +1,72 @@
+{
+ "process": [
+  "process"
+ ],
+ "hand": [
+  "hand"
+ ],
+ "grow": [
+  "grow"
+ ],
+ "good": [
+  "good"
+ ],
+ "wait": [
+  "wait"
+ ],
+ "reply": [
+  "reply"
+ ],
+ "followups": [
+  "follow",
+  "followups"
+ ],
+ "slip": [
+  "slip"
+ ],
+ "judgment": [
+  "judgment"
+ ],
+ "repetitive": [
+  "repetitive"
+ ],
+ "years": {
+  "w": [
+   "years"
+  ],
+  "nth": 0
+ },
+ "engineers": [
+  "engineers"
+ ],
+ "years2": {
+  "w": [
+   "years"
+  ],
+  "nth": 1
+ },
+ "hr": [
+  "hr"
+ ],
+ "built": [
+  "built"
+ ],
+ "myself": [
+  "myself"
+ ],
+ "purpose": [
+  "purpose"
+ ],
+ "software": [
+  "software"
+ ],
+ "routine": [
+  "routine"
+ ],
+ "people": [
+  "people"
+ ],
+ "decisions": [
+  "decisions"
+ ]
+}

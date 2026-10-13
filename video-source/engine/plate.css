@@ -1,0 +1,28 @@
+.fx-bloom { position: absolute; border-radius: 50%; pointer-events: none; opacity: 0; z-index: 58;
+  background: radial-gradient(closest-side, rgba(255,255,255,.98) 0%, rgba(255,255,255,.9) 22%, var(--fx-bl1, rgba(244,126,42,.42)) 46%, var(--fx-bl2, rgba(244,126,42,0)) 100%); }
+
+/* ---------- ICON PLATE (design_system §4): P-L 168 · P-M 128 · P-S 88, icon at 80 % ---------- */
+.fx-plate { position: absolute; width: var(--fx-ps); height: var(--fx-ps); border-radius: var(--fx-pr); --fx-pt: #EEF7FD; --fx-pl1: #D3EAF8; --fx-pl2: #B4DAF1; --fx-psh: rgba(27,127,176,.16); }
+.fx-plate-L { --fx-ps: 168px; --fx-pr: 28px; --fx-lip: 6px; }
+.fx-plate-M { --fx-ps: 128px; --fx-pr: 24px; --fx-lip: 5px; }
+.fx-plate-S { --fx-ps: 88px; --fx-pr: 18px; --fx-lip: 4px; }
+.fx-tint-orange { --fx-pt: #FFF4EC; --fx-pl1: #FFE2CC; --fx-pl2: #FBCBA6; --fx-psh: rgba(221,100,23,.15); }
+.fx-plate-lip, .fx-plate-face { position: absolute; inset: 0; display: block; border-radius: inherit; }
+/* bevel thickness: a tinted slab under the face, visible as a thin lip at the bottom edge */
+.fx-plate-lip { transform: translateY(var(--fx-lip)); background: linear-gradient(180deg, var(--fx-pl1), var(--fx-pl2));
+  box-shadow: var(--fx-sh-3d); }
+.fx-plate-S .fx-plate-lip { box-shadow: 0 1px 2px rgba(15,23,42,.06), 0 8px 14px -6px rgba(15,23,42,.14), 0 18px 34px -14px rgba(27,127,176,.34), 0 14px 26px -18px rgba(244,126,42,.34); }
+.fx-plate-face { border: 1.5px solid transparent;
+  background: linear-gradient(165deg, var(--fx-pt) 0%, #FFFFFF 56%, #F6F9FC 100%) padding-box, var(--fx-g-edge) border-box;
+  box-shadow: inset 0 2px 1px rgba(255,255,255,.98), inset 0 -10px 16px -8px var(--fx-psh), 0 1px 1px rgba(15,23,42,.05); }
+.fx-plate-face::after { content: ""; position: absolute; left: 6%; right: 6%; top: 3%; height: 44%; border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255,255,255,.85), rgba(255,255,255,0)); pointer-events: none; }
+.fx-plate-ico { position: absolute; left: 10%; top: 10%; width: 80%; height: 80%; object-fit: contain; display: block;
+  filter: drop-shadow(0 8px 10px rgba(27,127,176,.20)) drop-shadow(0 3px 4px rgba(244,126,42,.14)); }
+
+/* free-floating hero icon: elliptical contact shadow under it */
+.fx-hero { position: absolute; }
+.fx-hero-ico { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: block;
+  filter: drop-shadow(0 18px 22px rgba(27,127,176,.24)) drop-shadow(0 6px 8px rgba(244,126,42,.18)); }
+.fx-hero-shadow { position: absolute; left: 18%; right: 18%; bottom: -2%; height: 11%; display: block; border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(27,95,140,.30), rgba(27,95,140,0)); }

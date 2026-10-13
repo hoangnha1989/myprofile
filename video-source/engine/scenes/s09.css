@@ -1,0 +1,75 @@
+/* headline zone: centred, eyebrow y 140, SG uppercase headline y 180 */
+#s09 .s09-eb { position:absolute; left:260px; top:140px; width:1400px; text-align:center; }
+#s09 .s09-hl { position:absolute; left:260px; top:180px; width:1400px; font-size:64px; text-align:center; color:var(--ink); white-space:nowrap; }
+#s09 .s09-hl { height:70px; }
+#s09 .s09-hl .line { position:absolute; left:0; right:0; top:0; line-height:70px; }
+/* bubble band y 316..368 (top set inline) */
+#s09 .s09-conv { position:absolute; width:1204px; height:52px; }
+#s09 .s09-msg { position:absolute; top:0; height:52px; box-sizing:border-box; border-radius:16px; padding:14px 22px 0; border:1.5px solid transparent;
+  background:linear-gradient(180deg, #FFFFFF, #F6F9FC) padding-box, var(--g-edge) border-box;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95), 0 6px 14px -6px rgba(15,23,42,.18), 0 18px 34px -16px rgba(27,127,176,.30); }
+#s09 .s09-msg.them { border-bottom-left-radius:4px; }
+#s09 .s09-msg.me { background:linear-gradient(180deg, #F1F9FE, #E3F2FA) padding-box, var(--g-edge) border-box; border-bottom-right-radius:4px; }
+#s09 .s09-msg i { display:block; height:8px; border-radius:4px; background:#B6C2D1; margin-bottom:8px; }
+#s09 .s09-msg.me i { background:rgba(27,127,176,.62); }
+/* candidate cards: 440 x 320, y 432..752, rising 118 px (in .s09-grp) to y 314..634 once the band is empty */
+#s09 .s09-grp { position:absolute; left:0; top:0; width:0; height:0; }
+#s09 .s09-card { height:320px; }
+#s09 .s09-card .ring { position:absolute; inset:-2px; border-radius:26px; border:2.5px solid rgba(37,161,219,.9); opacity:0; visibility:hidden; pointer-events:none; }
+#s09 .s09-card .nm { position:absolute; left:136px; top:24px; height:88px; line-height:88px; font-family:"MR"; font-weight:700; font-size:30px; color:var(--ink); white-space:nowrap; }
+#s09 .s09-card .row { position:absolute; left:30px; right:30px; height:60px; }
+#s09 .s09-card .row.r1 { top:144px; }
+#s09 .s09-card .row.r2 { top:222px; }
+#s09 .s09-card .row .lb { position:absolute; left:0; top:2px; font-family:"SG"; font-weight:600; font-size:20px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+#s09 .s09-card .row .v { position:absolute; right:0; top:-8px; font-size:36px; line-height:40px; color:var(--ink); }
+#s09 .s09-card .tr { position:absolute; left:0; right:0; top:40px; height:10px; border-radius:5px; background:var(--line); }
+#s09 .s09-card .tr b { position:absolute; inset:0; border-radius:5px; background:var(--g-blue); transform-origin:0 50%; }
+#s09 .s09-card .tr u { position:absolute; left:75%; top:-6px; width:2px; height:22px; background:var(--ink); opacity:.8; transform-origin:50% 50%; }
+/* delta sits just left of the fit number (16 px clear), above the bar and 16 px clear of the tick */
+#s09 .s09-card .dl { position:absolute; right:90px; top:212px; font-size:24px; line-height:28px; color:var(--acc2); }
+#s09 .s09-card .dl.neg { color:var(--muted); }
+/* outcome row y 698..786, centred (64 px under the risen cards) */
+#s09 .s09-out { position:absolute; left:160px; top:698px; width:1600px; height:88px; display:flex; align-items:center; justify-content:center; gap:20px; }
+#s09 .s09-out .chip { position:relative; height:52px; padding:0 22px; font-size:22px; letter-spacing:.06em; text-transform:uppercase; gap:10px;
+  box-sizing:border-box; justify-content:center; flex:none; }
+/* fixed widths: the row's final layout is known in the js (Strong fit starts centred under card B) */
+#s09 .s09-out .chip[data-box="s09-o-fit"] { width:216px; }
+#s09 .s09-out .chip[data-box="s09-o-sal"] { width:260px; }
+#s09 .s09-out .chip[data-box="s09-o-int"] { width:292px; }
+#s09 .s09-plus { flex:none; font-size:34px; line-height:40px; color:var(--acc3); width:24px; text-align:center; }
+#s09 .s09-arr { flex:none; overflow:visible; }
+#s09 .s09-arr path { fill:none; stroke:var(--acc); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+#s09 .s09-ph { position:relative; display:block; width:88px; height:88px; flex:none; }
+#s09 .s09-ph .rp { position:absolute; left:-6px; top:-6px; width:100px; height:100px; border-radius:24px; border:2.5px solid var(--orange); opacity:0; visibility:hidden; }
+/* phase 2 */
+#s09 .s09-h2 { position:absolute; left:260px; top:180px; width:1400px; font-size:60px; text-align:center; color:var(--ink); white-space:nowrap; }
+#s09 .s09-h2 .line { line-height:66px; }
+#s09 .s09-h2 .line.a .in { position:relative; color:var(--ink); }
+#s09 .s09-h2 .strike { position:absolute; left:0; right:0; top:50%; height:5px; margin-top:-2px; background:var(--acc); transform-origin:0 50%; border-radius:3px; }
+#s09 .s09-wall { position:absolute; width:1200px; height:448px; }
+#s09 .s09-wall > i { position:absolute; display:block; width:132px; height:48px; box-sizing:border-box; padding:14px 16px 0; border-radius:14px;
+  border-bottom-left-radius:4px; border:1.5px solid transparent;
+  background:linear-gradient(180deg, #FFFFFF, #F6F9FC) padding-box, var(--g-edge) border-box;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95), 0 4px 10px -6px rgba(15,23,42,.16), 0 12px 22px -14px rgba(27,127,176,.26); }
+#s09 .s09-wall > i.me { border-bottom-left-radius:14px; border-bottom-right-radius:4px; background:linear-gradient(180deg, #F1F9FE, #E3F2FA) padding-box, var(--g-edge) border-box; }
+#s09 .s09-wall > i b { display:block; height:6px; border-radius:3px; background:#B6C2D1; margin-bottom:6px; }
+#s09 .s09-wall > i.me b { background:rgba(27,127,176,.62); }
+#s09 .s09-rep { width:960px; height:480px; }
+#s09 .s09-card .fl { position:absolute; left:75%; top:62px; width:160px; margin-left:-80px; height:20px; line-height:20px; font-size:20px; text-align:center; opacity:0; visibility:hidden; }
+#s09 .s09-rep .t { position:absolute; left:140px; top:20px; height:88px; line-height:88px; font-family:"SG"; font-weight:700; font-size:34px; letter-spacing:.04em; text-transform:uppercase; color:var(--ink); }
+#s09 .s09-rep .s09-rl { position:absolute; right:36px; top:20px; height:88px; line-height:88px; }
+#s09 .s09-rep .dv { position:absolute; left:32px; right:32px; top:120px; height:1.5px; background:var(--line); }
+#s09 .s09-rep .s09-c1, #s09 .s09-rep .s09-c2 { position:absolute; top:126px; font-size:20px; letter-spacing:.1em; }
+#s09 .s09-rep .s09-c1 { left:336px; }
+#s09 .s09-rep .s09-c2 { left:548px; }
+#s09 .s09-rep .rr { position:absolute; left:20px; right:20px; height:104px; border-radius:16px; border:1.5px solid transparent; box-sizing:border-box; }
+#s09 .s09-rep .rr .nm { position:absolute; left:116px; top:8px; height:88px; line-height:88px; font-family:"MR"; font-weight:700; font-size:28px; color:var(--ink); white-space:nowrap; }
+#s09 .s09-rep .rr .tr { position:absolute; top:47px; width:180px; height:10px; border-radius:5px; background:var(--line); }
+#s09 .s09-rep .rr .tr.a { left:314px; }
+#s09 .s09-rep .rr .tr.b { left:526px; }
+#s09 .s09-rep .rr .tr b { position:absolute; inset:0; border-radius:5px; background:var(--g-blue); transform-origin:0 50%; }
+#s09 .s09-rep .rr.hi .tr.b b { background:var(--orange); }
+#s09 .s09-rep .rr .tr u { position:absolute; left:75%; top:-7px; width:2px; height:24px; background:var(--ink); opacity:.7; }
+#s09 .s09-rep .rr .sc { position:absolute; left:726px; width:64px; top:32px; height:40px; line-height:40px; text-align:right; font-size:34px; color:var(--ink); }
+#s09 .s09-rep .rr.hi .sc { color:var(--acc2); }
+#s09 .s09-card .tr b s { position:absolute; inset:0; opacity:0; visibility:hidden; border-radius:5px; background:linear-gradient(90deg, #FBA65A, #F47E2A 60%, #DD6417); }

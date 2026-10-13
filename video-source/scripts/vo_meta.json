@@ -1,0 +1,161 @@
+{
+ "clock": "render/final_vo.wav",
+ "duration": 324.82,
+ "lines": [
+  {
+   "line": "L01",
+   "t": 1.6,
+   "dur": 12.62,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L01c0_q7",
+    "L01c1_q4"
+   ],
+   "text": "More than eleven years in talent acquisition have taught me one thing: great hiring is about judgment, not volume. And that led me to a question that has driven my work ever since. What if that judgment could scale?"
+  },
+  {
+   "line": "L02",
+   "t": 16.82,
+   "dur": 7.45,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L02c0_q8"
+   ],
+   "text": "Let me start with who I am. I lead talent acquisition in Ho Chi Minh City, working in Vietnamese, English and Japanese."
+  },
+  {
+   "line": "L03",
+   "t": 26.87,
+   "dur": 28.41,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L03c0_q7",
+    "L03c1_q6",
+    "L03c2_q3"
+   ],
+   "text": "My path here has given me a wide view of people and business. I began in banking, on the international settlement desk. I then built my career in talent acquisition: I ran an IT branch of around thirty people for a Japanese company, and spent five years as an HR and Recruiting Manager. Today, I recruit senior technology talent for a US executive search firm. I have also presented at industry events on how AI can be applied in HR and recruitment."
+  },
+  {
+   "line": "L04",
+   "t": 57.88,
+   "dur": 18.35,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L04c0_q1",
+    "L04c1_q4",
+    "L04c2_q6"
+   ],
+   "text": "Across all of those roles, one lesson kept coming back. A CV records the past, but never the whole person. So before any search begins, I define the role with the client: the must-have skills, the team, and the manager the new hire will work with. Getting this right first saves weeks of searching in the wrong direction."
+  },
+  {
+   "line": "L05",
+   "t": 78.83,
+   "dur": 31.69,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L05c0_q6",
+    "L05c1_q8",
+    "L05c2_q3",
+    "L05c3_q6"
+   ],
+   "text": "Once the role is clear, the search begins. I approach talent directly, including people who are not yet looking, and interview each candidate using the hiring manager's own criteria. Out of twenty to forty candidates, only one or two are presented, each with a clear reason why they fit. That way, leaders spend their time only on people worth meeting. Over ten years, this approach has led to more than eight hundred offers, from junior and senior engineers to team leads and managers, backed by an IT talent database of nearly five thousand CVs."
+  },
+  {
+   "line": "L06",
+   "t": 113.12,
+   "dur": 17.39,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L06c0_q5",
+    "L06c1_q9"
+   ],
+   "text": "To make this repeatable, I built a method of my own: a twenty-three-step recruitment workflow, with checklists, metrics and a report at every milestone. And it does not stop at the offer. I follow each placement through probation, because a hire only succeeds when the person stays and grows."
+  },
+  {
+   "line": "L07",
+   "t": 133.11,
+   "dur": 19.99,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L07c0_q5",
+    "L07c1_q6"
+   ],
+   "text": "But a process run by hand can only grow so far. Good candidates wait too long for a reply, follow-ups slip, and valuable judgment is spent on repetitive work. With years beside engineers and years in HR, I built the system myself, with one purpose: let software carry the routine, so people can focus on decisions."
+  },
+  {
+   "line": "L08",
+   "t": 155.7,
+   "dur": 24.25,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L08c0_q1",
+    "L08c1_q6",
+    "L08c2_q6"
+   ],
+   "text": "The first thing I built was an app that signs in to many recruiter accounts from a single screen, and uses an AI agent to grow the network across all of them. The agent is trained to reply just as a real recruiter would, day and night, in any language, and no candidate is ever contacted twice. The purpose: no good candidate is missed or kept waiting, and one recruiter reaches as far as a whole team."
+  },
+  {
+   "line": "L09",
+   "t": 182.55,
+   "dur": 23.18,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L09c0_q4",
+    "L09c1_q5",
+    "L09c2_q1"
+   ],
+   "text": "Behind every conversation, it reports back to me, candidate by candidate: their potential, how well they fit each open role, and how that score changes with everything they share. When the fit is strong and the salary matches, it books a call with me, so I can interview the candidate myself. Instead of reading thousands of messages, I read one clear report, and spend my time on the candidates who matter."
+  },
+  {
+   "line": "L10",
+   "t": 208.33,
+   "dur": 26.05,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L10c0_q2",
+    "L10c1_q8",
+    "L10c2_q5"
+   ],
+   "text": "It also reviews its own work every day, learning from each conversation, correcting its mistakes, and proposing improvements that I approve, so its quality grows every week while a person stays in control. And every action is measured. Every thirty days, on average: one hundred and ninety CVs, one hundred and sixty top-tier candidates, and one hundred and fifty interview calls. A sourcing team that never stops, and reports in numbers, not feelings."
+  },
+  {
+   "line": "L11",
+   "t": 236.98,
+   "dur": 31.14,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L11c0_q1",
+    "L11c1_q6",
+    "L11c2_q3",
+    "L11c3_q3",
+    "L11c4_q2"
+   ],
+   "text": "The same idea now runs through the rest of HR. I built a virtual office that records remote work and calculates timesheets automatically, so managers see real working time without paperwork. A chat platform keeps every candidate conversation inside the company, so knowledge stays when people move on. And an applicant tracking system scores each CV against the job, so screening is faster and fairer. The goal behind all of it: HR that runs on data, and people free for the human work."
+  },
+  {
+   "line": "L12",
+   "t": 270.72,
+   "dur": 28.76,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L12c0_q6",
+    "L12c1_q3",
+    "L12c2_q2",
+    "L12c3_q9"
+   ],
+   "text": "Still, in HR, the most important thing is not to automate everything. Hiring is about people. For senior roles, I believe that meeting candidates in person is the foundation of truly understanding them: their motivations, their doubts, and the way they lead others. These are things no software can capture. So I interview every senior candidate face to face, from team leads to CTOs. I go to meet them, listen to what really drives them, and negotiate each offer in person."
+  },
+  {
+   "line": "L13",
+   "t": 302.08,
+   "dur": 18.74,
+   "file": "render/final_vo.wav",
+   "takes": [
+    "L13c0_q3",
+    "L13c1_q10",
+    "L13c2_q2"
+   ],
+   "text": "That is the balance I bring to every search. AI handles the volume, so no good candidate is missed. I bring the judgment, built in face-to-face conversations, so the right person is chosen. Together, they help companies hire senior people who stay and grow. I would be glad to talk about the next senior hire."
+  }
+ ]
+}

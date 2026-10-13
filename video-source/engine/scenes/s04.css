@@ -1,0 +1,63 @@
+/* ===== S04 MY PHILOSOPHY (gold): centred column per beat: eyebrow 132, headline 172 (+266); beat B two sides mirrored on
+   x 960 (CV centre 700, person centre 1220); beat C plate row 266..434, labels 448 (row rises to y 28 once the cards come: plates 294..462, labels 476), cards 556..846; beat D row 448..616,
+   label 664. Every hand-set left/top on the 2 px grid. ===== */
+#s04 .s04-defs { position:absolute; width:0; height:0; overflow:hidden; }
+#s04 .s04-row { position:absolute; left:0; width:1920px; text-align:center; white-space:nowrap; }
+#s04 .s04-row .in2 { display:inline-block; position:relative; }
+#s04 .s04-h72 { font-size:72px; }
+#s04 .s04-h60 { font-size:60px; }
+#s04 .s04-h60 .in2 { color:var(--ink); }
+#s04 .s04-rl { color:var(--body); font-size:24px; }
+
+/* beat A: the lesson ring behind the bulb */
+#s04 .s04-bring { position:absolute; left:840px; top:360px; width:240px; height:240px; border-radius:50%; border:3px solid #F47E2A; opacity:0; display:block;
+  box-shadow:0 0 18px rgba(244,126,42,.30); }
+
+/* beat B: the CV card (340 x 440) */
+#s04 .s04-cv { width:340px; height:440px; }
+#s04 .s04-cvt { position:absolute; left:136px; top:50px; font-family:"SG"; font-weight:700; font-size:40px; line-height:44px; letter-spacing:.06em; color:var(--ink); }
+#s04 .s04-cvr { position:absolute; left:28px; width:284px; height:66px; }
+#s04 .s04-cvr b { position:absolute; left:0; top:4px; width:44px; height:44px; border-radius:12px; background:#EEF7FD; display:flex; align-items:center; justify-content:center; }
+#s04 .s04-cvr i { position:absolute; left:62px; height:14px; border-radius:7px; display:block; transform-origin:0 50%; background:linear-gradient(90deg,#CBD5E1,#E2E8F0); }
+#s04 .s04-halo { position:absolute; left:1010px; top:390px; overflow:visible; }
+#s04 .s04-halo circle { fill:none; stroke:var(--acc); stroke-opacity:.55; stroke-width:2.5; stroke-linecap:round; }
+#s04 .s04-pring { position:absolute; left:1070px; top:450px; width:300px; height:300px; border-radius:50%; border:3px solid #F47E2A; opacity:0; display:block; }
+
+/* beat C: plate row arrows + labels */
+#s04 .s04-ar { position:absolute; left:0; top:0; overflow:visible; }
+#s04 .s04-ar .ln, #s04 .s04-ar .hd { fill:none; stroke:var(--acc); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+#s04 .s04-lbw { position:absolute; top:448px; width:360px; text-align:center; white-space:nowrap; }
+#s04 .s04-lb { display:inline-block; position:relative; font-size:22px; color:var(--body); }
+#s04 .s04-lb.acc { color:#DD6417; font-weight:700; }
+#s04 .s04-jring { position:absolute; left:876px; top:266px; width:168px; height:168px; border-radius:28px; border:3px solid #F47E2A; opacity:0; display:block; }
+
+/* cards: 496 x 290, S plate (28,28), title centred on the plate, mini-UI from y 150 */
+#s04 .s04-k { width:496px; height:290px; }
+#s04 .s04-k .kt { position:absolute; left:136px; top:52px; height:40px; line-height:40px; white-space:nowrap; font-family:"SG"; font-weight:700; font-size:28px;
+  letter-spacing:.01em; text-transform:uppercase; color:var(--ink); }
+#s04 .s04-k .v { position:absolute; left:28px; top:156px; width:440px; height:106px; }
+#s04 .s04-k .chk .r { position:absolute; left:0; width:440px; height:26px; }
+#s04 .s04-k .chk .tk { position:absolute; left:0; top:0; width:26px; height:26px; filter:drop-shadow(0 3px 4px rgba(221,100,23,.30)); }
+#s04 .s04-k .tk svg, #s04 .s04-k .bdg svg { display:block; }
+#s04 .s04-k .chk .r i { position:absolute; left:42px; top:6px; height:14px; border-radius:7px; display:block; transform-origin:0 50%; background:linear-gradient(90deg,#CBD5E1,#E2E8F0); }
+#s04 .s04-k .ppl { display:flex; align-items:center; justify-content:center; gap:20px; top:180px; height:56px; }
+#s04 .s04-k .pair { display:flex; align-items:center; justify-content:center; gap:20px; top:180px; height:56px; }
+#s04 .s04-k .v .hd { display:block; width:44px; height:44px; filter:drop-shadow(0 4px 5px rgba(15,23,42,.18)); }
+#s04 .s04-k .pair .lk { display:block; width:120px; height:4px; border-radius:2px; background:#F47E2A; transform-origin:0 50%; }
+#s04 .s04-k .bdg { position:absolute; right:28px; top:28px; width:40px; height:40px; }
+#s04 .s04-k .bdg svg { width:40px; height:40px; filter:drop-shadow(0 4px 6px rgba(221,100,23,.30)); }
+
+/* beat D: week cells (168 x 168, same size as the calendar L plate, step 216) in one centred row; no numbers (none spoken) */
+#s04 .s04-wk { position:absolute; top:448px; width:168px; height:168px; border-radius:28px; overflow:hidden; border:1.5px solid transparent;
+  background:linear-gradient(180deg,#FFFFFF,#F6F9FC) padding-box, var(--g-edge) border-box;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95), 0 6px 14px -6px rgba(15,23,42,.18), 0 16px 30px -18px rgba(27,127,176,.34); }
+#s04 .s04-wk .hd2 { position:absolute; left:0; right:0; top:0; height:34px; background:var(--g-blue); }
+#s04 .s04-wk .dots { position:absolute; left:10px; top:92px; width:148px; height:16px; display:flex; gap:6px; }
+#s04 .s04-wk .dots i { display:block; width:16px; height:16px; border-radius:50%; background:#D7E3EE; }
+#s04 .s04-wk .x { position:absolute; left:0; top:0; }
+#s04 .s04-wk .x path { fill:none; stroke:#F47E2A; stroke-width:8; stroke-linecap:round; }
+#s04 .s04-lbd { color:var(--body); font-size:26px; letter-spacing:.04em; }
+#s04 .s04-lbd .in2 { padding-bottom:14px; }
+#s04 .s04-lbd b { position:relative; display:inline-block; color:#DD6417; font-weight:700; }
+#s04 .s04-lbd .s04-ul { bottom:-8px; height:3px; background:#F47E2A; }
+#s04 .s04-gate { position:absolute; left:0; top:0; }

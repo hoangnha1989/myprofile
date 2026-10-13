@@ -1,0 +1,81 @@
+/* heading: left edge at 244 (rest after the talk showcase); the script centres it on x=960 before that */
+#s03 .s03-eb { position:absolute; left:244px; top:150px; font-size:22px; white-space:nowrap; }
+#s03 .s03-hl { position:absolute; left:244px; top:186px; font-size:64px; white-space:nowrap; color:var(--ink); }
+#s03 .s03-hl .line { display:block; }
+/* track (slides left), masked at the frame edges */
+#s03 .s03-view { position:absolute; left:0; top:0; width:1920px; height:1080px;
+  -webkit-mask-image:linear-gradient(90deg, transparent 0, transparent 90px, #FFFFFF 170px, #FFFFFF 1750px, transparent 1830px); }
+#s03 .s03-track { position:absolute; left:0; top:0; width:2400px; height:1080px; }
+#s03 .s03-base { position:absolute; left:-700px; top:429px; width:2800px; height:2px;
+  background:repeating-linear-gradient(90deg, #B6C2D2 0 10px, transparent 10px 20px); }
+#s03 .s03-svg { position:absolute; left:0; top:330px; overflow:visible; }
+#s03 .s03-svg .seg { fill:none; stroke:var(--acc); stroke-width:4; stroke-linecap:round; }
+#s03 .s03-node { position:absolute; top:420px; width:20px; height:20px; border-radius:50%; background:#FFFFFF;
+  border:2.5px solid var(--acc); box-shadow:0 0 0 5px rgba(37,161,219,.14), 0 4px 10px rgba(27,127,176,.22); box-sizing:border-box; }
+#s03 .s03-node::after { content:""; position:absolute; inset:3px; border-radius:50%; background:var(--acc3); }
+#s03 .s03-node.now { border-color:#E06E20; box-shadow:0 0 0 5px rgba(244,126,42,.16), 0 4px 10px rgba(221,100,23,.24); }
+#s03 .s03-node.now::after { background:#E06E20; }
+#s03 .s03-nring { position:absolute; top:408px; width:44px; height:44px; border-radius:50%; border:2.5px solid #E06E20; opacity:0; box-sizing:border-box; }
+#s03 .s03-stem { position:absolute; top:442px; width:2px; height:34px; background:#B6C2D2; transform-origin:50% 0; }
+/* opening: People / Business plates hanging from the two ends of the wide base */
+#s03 .s03-end { position:absolute; left:0; top:0; width:0; height:0; }
+#s03 .s03-end-lb { position:absolute; top:670px; width:300px; text-align:center; font-family:"SG"; font-weight:700; font-size:28px;
+  letter-spacing:.04em; text-transform:uppercase; color:var(--ink); }
+/* "talent acquisition" bracket over slots 1..3 (track x 552..1792) */
+#s03 .s03-brk { position:absolute; left:552px; top:300px; width:1240px; height:44px; }
+#s03 .s03-brk-chip { position:absolute; left:0; top:0; height:40px; padding:0 18px; display:flex; align-items:center;
+  font-size:23px; letter-spacing:.14em; text-transform:uppercase; color:var(--acc3); border-radius:12px; white-space:nowrap; }
+#s03 .s03-brk .ln { position:absolute; left:302px; right:0; top:19px; height:2px; display:block; transform-origin:0 50%;
+  background:repeating-linear-gradient(90deg, rgba(37,161,219,.75) 0 8px, transparent 8px 14px); }
+#s03 .s03-brk .tk { position:absolute; right:0; top:19px; width:2px; height:22px; display:block; transform-origin:50% 0; background:rgba(37,161,219,.75); }
+/* milestone cards: equal size, equal gap */
+#s03 .s03-card { position:absolute; top:476px; width:392px; height:380px; box-sizing:border-box; }
+#s03 .s03-card .glow { position:absolute; inset:-5px; border-radius:28px; border:2.5px solid rgba(37,161,219,.55); opacity:0; display:block;
+  box-shadow:0 0 0 6px rgba(37,161,219,.08); pointer-events:none; }
+#s03 .s03-card.now .glow { border-color:rgba(224,110,32,.6); box-shadow:0 0 0 6px rgba(244,126,42,.09); }
+/* title block anchored from the bottom: one- and two-line titles keep the same gap to row 2 */
+#s03 .s03-card .ttl { transform-origin:0 100%; position:absolute; left:28px; right:24px; bottom:148px; font-family:"SG"; font-weight:700; font-size:26px; line-height:1.15;
+  letter-spacing:.02em; text-transform:uppercase; color:var(--ink); }
+#s03 .s03-card.now .ttl { color:#DD6417; }
+#s03 .s03-card .r2 { position:absolute; left:28px; right:24px; top:252px; height:56px; display:flex; align-items:center; gap:12px; }
+#s03 .s03-card .sub { font-family:"MR"; font-weight:600; font-size:24px; color:var(--body); white-space:nowrap; }
+#s03 .s03-card .r2 .n { font-size:52px; line-height:1; color:transparent; background:var(--g-text); -webkit-background-clip:text; background-clip:text; }
+#s03 .s03-card .r2 .u { font-family:"MR"; font-weight:600; font-size:26px; color:var(--body); }
+#s03 .s03-card .r3 { position:absolute; left:28px; right:24px; top:320px; height:36px; display:flex; align-items:center; gap:14px; }
+#s03 .s03-card .grid30 { position:relative; width:320px; height:32px; }
+#s03 .s03-card .grid30 i { position:absolute; width:12px; height:12px; border-radius:50%; background:var(--g-blue); }
+#s03 .s03-card .yrs { display:flex; gap:8px; width:336px; }
+#s03 .s03-card .yrs i { display:block; flex:1; height:12px; border-radius:6px; background:#E2E8F0; overflow:hidden; }
+#s03 .s03-card .yrs b { display:block; width:100%; height:100%; background:var(--g-blue); transform-origin:0 50%; }
+#s03 .s03-co, #s03 .s03-tag { position:absolute; right:24px; top:34px; height:40px; padding:0 14px; display:flex; align-items:center;
+  font-size:23px; border-radius:12px; white-space:nowrap; }
+#s03 .s03-co { height:auto; padding:8px 14px; flex-direction:column; align-items:flex-end; gap:2px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--acc3); line-height:1.1; }
+#s03 .s03-co b { display:block; font-weight:700; }
+#s03 .s03-tag { letter-spacing:.14em; text-transform:uppercase; }
+/* banking row 3: settlement desk, a cross-border transfer from the globe to a settled tick */
+#s03 .s03-card .desk { display:flex; align-items:center; gap:8px; width:336px; height:36px; }
+#s03 .s03-card .desk .ep { display:flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:50%;
+  background:#EEF6FB; box-sizing:border-box; border:2px solid rgba(37,161,219,.35); flex:none; }
+#s03 .s03-card .desk .ep.ok { background:var(--acc); border-color:var(--acc3); }
+#s03 .s03-card .desk .fl { flex:none; overflow:visible; }
+#s03 .s03-card .desk .fl path { fill:none; stroke:var(--acc); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+#s03 .s03-card .desk .fl .fl-ln { stroke-dasharray:8 7; }
+/* executive search row 3: a shortlist of tech candidates, one picked (the pick turns orange, its tick lands) */
+#s03 .s03-card .short { position:relative; display:flex; align-items:center; justify-content:space-between; width:336px; height:36px; }
+#s03 .s03-card .short .av { display:flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:50%;
+  background:#EEF6FB; box-sizing:border-box; border:2px solid rgba(37,161,219,.35); flex:none; position:relative; }
+#s03 .s03-card .short .av .on { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; opacity:0; }
+/* tick centred on the pick's top-right corner (pick k=3 spans 225..261 in the 336 px row); 26 px clear of the 5th avatar */
+#s03 .s03-card .short .ok { position:absolute; left:250px; top:-10px; display:flex; align-items:center; justify-content:center; width:24px; height:24px;
+  border-radius:50%; background:var(--acc); border:2px solid #FFFFFF; box-sizing:border-box; }
+/* event strip: photos, not app windows (no title bar), both cropped to one 288 x 162 box so the strip reads as one row;
+   Speaker chip right-aligned 32 px short of the strip, under the heading (track chips sit at 23 px because the track rests
+   at scale 0.86) */
+#s03 .s03-ev .bar { display:none; }
+#s03 .s03-ev img { height:162px; object-fit:cover; object-position:50% 50%; }
+#s03 .s03-conf img { object-position:46% 34%; }
+#s03 .s03-spk { position:absolute; right:876px; top:290px; height:44px; padding:0 18px; display:flex; align-items:center; gap:12px;
+  font-size:22px; letter-spacing:.12em; text-transform:uppercase; color:var(--acc3); border-radius:12px; white-space:nowrap; }
+#s03 .s03-spk b { font-weight:700; color:#DD6417; }
+#s03 .s03-spk i { display:block; width:6px; height:6px; border-radius:50%; background:var(--acc); }

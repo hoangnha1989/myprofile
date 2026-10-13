@@ -1,0 +1,33 @@
+#s12 .s12-warm { position:absolute; left:160px; top:-40px; width:1600px; height:1100px; border-radius:50%; pointer-events:none;
+  background:radial-gradient(closest-side, rgba(244,126,42,.05), rgba(37,161,219,.03) 55%, rgba(37,161,219,0)); }
+/* beat A: centred statement over one row of 6 equal M plates (6 x 128 + 5 x 40 = 968 px) */
+#s12 .s12-mac { position:absolute; left:476px; top:620px; width:968px; height:128px; }
+#s12 .s12-ebw { position:absolute; left:120px; top:250px; width:1680px; text-align:center; }
+#s12 .s12-ebw .eyebrow { display:inline-block; }
+#s12 .s12-hl { position:absolute; left:120px; top:290px; width:1680px; font-size:84px; color:var(--ink); text-align:center; transform-origin:50% 0; }
+#s12 .s12-subw { position:absolute; left:120px; top:506px; width:1680px; text-align:center; }
+#s12 .s12-sub { display:inline-block; font-family:"MR"; font-weight:600; font-size:44px; color:var(--body); }
+#s12 .s12-sub em { font-style:normal; color:var(--acc2); font-weight:800; }
+/* two equal gold cards, 740 x 580, gap 120, symmetric around x = 960 once both are in */
+#s12 .s12-card { position:absolute; top:260px; width:740px; height:580px; transform-origin:50% 50%; }
+#s12 .s12-card.a { left:160px; }
+#s12 .s12-card.b { left:1020px; }
+#s12 .s12-hd { position:absolute; left:140px; top:34px; width:560px; }
+#s12 .s12-hd .eyebrow { display:inline-block; font-size:20px; }
+#s12 .s12-hd .bd { margin-top:8px; font-size:26px; color:var(--ink); }
+#s12 .s12-rule { position:absolute; left:32px; top:140px; width:676px; height:2px; border-radius:1px; background:var(--line); transform-origin:0 50%; }
+#s12 .s12-lnk, #s12 .s12-lad { position:absolute; left:0; top:0; }
+/* halo around the 256 px interview hero (centre 180,346): max radius 140 stays below the rule (y 142) and left of the links (x 332) */
+#s12 .s12-ring { position:absolute; left:40px; top:206px; width:280px; height:280px; border-radius:50%; border:2px solid var(--acc2); opacity:0; }
+#s12 .s12-lb { position:absolute; left:508px; height:36px; line-height:36px; font-family:"SG"; font-weight:700; font-size:28px; color:var(--ink); white-space:nowrap; }
+#s12 .s12-pr { position:absolute; left:404px; width:88px; height:88px; border-radius:18px; border:2px solid var(--acc2); opacity:0; }
+#s12 .s12-tag { position:absolute; left:404px; top:518px; display:inline-flex; align-items:center; height:38px; padding:0 16px; border-radius:8px;
+  border:1.5px dashed rgba(224,110,32,.7); background:#FFF6EF; font-family:"SG"; font-weight:700; font-size:20px; letter-spacing:.1em;
+  text-transform:uppercase; color:#DD6417; white-space:nowrap; }
+#s12 .s12-stl { position:absolute; width:200px; height:36px; line-height:36px; text-align:center; font-family:"SG"; font-weight:700; font-size:28px; color:var(--ink); white-space:nowrap; }
+#s12 .s12-stl.top { color:#DD6417; }
+/* card B foot: handshake plate + chip as one centred row */
+#s12 .s12-ngr { position:absolute; left:0; top:470px; width:740px; height:88px; display:flex; align-items:center; justify-content:center; gap:20px; }
+#s12 .s12-ngr .fx-plate { position:relative; left:auto !important; top:auto !important; flex:none; }
+#s12 .s12-shr { position:absolute; inset:0; border-radius:18px; border:2px solid var(--acc2); opacity:0; }
+#s12 .s12-neg { position:relative; flex:none; height:52px; padding:0 26px; border-radius:26px; font-size:22px; letter-spacing:.06em; text-transform:uppercase; }

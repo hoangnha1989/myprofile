@@ -1,0 +1,78 @@
+/* S07 gold pass: centred headline zone y 180..330, one card row y 370..790, symmetric around x = 960 */
+#s07 .s07-hl { position:absolute; left:0; right:0; margin:0 auto; width:fit-content; top:212px; font-size:72px; white-space:nowrap; text-align:center; }
+#s07 .s07-hl.c { font-size:62px; top:180px; }
+#s07 .s07-hl .line { display:block; padding-bottom:4px; }
+/* pain cards: 480 x 420, gap 60 */
+#s07 .s07-pain { top:370px; width:480px; height:420px; text-align:center; }
+#s07 .s07-pain.p0 { left:180px; } #s07 .s07-pain.p1 { left:720px; } #s07 .s07-pain.p2 { left:1260px; }
+#s07 .s07-pain .strip { position:absolute; left:80px; top:244px; width:320px; height:44px; }
+#s07 .s07-pain .no { position:absolute; left:0; right:0; top:296px; font-family:"SG"; font-weight:700; font-size:36px; line-height:1.1; letter-spacing:.08em; color:#DD6417; }
+#s07 .s07-pain .tx { position:absolute; left:0; right:0; top:346px; font-family:"MR"; font-weight:700; font-size:32px; color:var(--ink); display:block; overflow:hidden; white-space:nowrap; }
+/* 1 waiting reply: clock glyph, crawling bar, typing dots */
+#s07 .s07-pain .wait { position:absolute; inset:0; display:flex; align-items:center; gap:14px; padding:0 16px; border-radius:22px;
+  background:#FFFFFF; border:1.5px solid var(--line); box-shadow:0 6px 14px -8px rgba(15,23,42,.18); }
+#s07 .s07-pain .wait .trk { position:relative; flex:1; height:10px; border-radius:5px; background:var(--line); display:block; overflow:hidden; }
+#s07 .s07-pain .wait .fill { position:absolute; inset:0; border-radius:5px; background:linear-gradient(90deg, #FBA65A, #F47E2A); transform-origin:0 50%; display:block; }
+#s07 .s07-pain .wait .dots { display:flex; gap:6px; }
+#s07 .s07-pain .wait .dots i { width:8px; height:8px; border-radius:50%; background:var(--acc3); display:block; }
+/* 2 follow-up chain */
+#s07 .s07-pain .chain { overflow:visible; }
+#s07 .s07-pain .chain .ln { fill:none; stroke:var(--acc); stroke-width:3; stroke-linecap:round; }
+#s07 .s07-pain .chain circle { fill:#FFFFFF; stroke:var(--acc); stroke-width:3; }
+#s07 .s07-pain .chain .n0 circle, #s07 .s07-pain .chain .n1 circle { fill:var(--acc); }
+#s07 .s07-pain .chain .n2 circle, #s07 .s07-pain .chain .n3 circle { stroke:#F47E2A; }
+#s07 .s07-pain .chain .ck { fill:none; stroke:#FFFFFF; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+#s07 .s07-link .sp { position:absolute; left:0; top:0; overflow:visible; }
+#s07 .s07-link .sp path { fill:none; stroke:#F47E2A; stroke-width:5; stroke-linecap:round; }
+/* 3 routine tickets filling the strip under the bulb: 5 x 56, gap 10 = 320 */
+#s07 .s07-pain .tks { position:absolute; inset:0; display:flex; gap:10px; }
+#s07 .s07-pain .tkt { position:relative; width:56px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; background:#FFFFFF;
+  border:1.5px solid var(--line2); box-shadow:0 6px 12px -8px rgba(15,23,42,.25); }
+/* split screen: 800 x 420 halves */
+#s07 .s07-half { top:370px; width:800px; height:420px; }
+#s07 .s07-half.l { left:140px; } #s07 .s07-half.r { left:980px; }
+#s07 .s07-half .hd { position:absolute; left:140px; top:28px; height:88px; display:flex; align-items:center; }
+#s07 .s07-half .hd .lbl { font-family:"SG"; font-weight:700; font-size:24px; letter-spacing:.14em; color:var(--ink); white-space:nowrap; }
+/* inner window panel (code | hiring flow), 640 x 248, mirrored so both keep 32 px clear of the core */
+#s07 .s07-half .ed { position:absolute; top:140px; width:640px; height:248px; border-radius:18px; background:#F8FAFC; border:1.5px solid var(--line); box-sizing:border-box; }
+#s07 .s07-half.l .ed { left:64px; } #s07 .s07-half.r .ed { left:96px; }
+#s07 .s07-half .ed .bar { position:absolute; left:0; right:0; top:0; height:36px; border-bottom:1.5px solid var(--line); display:flex; gap:8px; align-items:center; padding-left:18px; }
+#s07 .s07-half .ed .bar i { width:10px; height:10px; border-radius:50%; background:var(--line2); display:block; }
+#s07 .s07-half .ed .bar i:first-child { background:#F47E2A; }
+#s07 .s07-half .code { position:absolute; left:0; right:0; top:46px; }
+#s07 .s07-half .cl { position:relative; display:flex; height:30px; align-items:center; }
+#s07 .s07-half .cl b { width:6px; height:6px; border-radius:50%; background:var(--line2); margin:0 20px 0 22px; display:block; flex:none; }
+#s07 .s07-half .cl .tk { display:flex; gap:12px; }
+#s07 .s07-half .cl .tk i { display:block; height:12px; border-radius:6px; background:var(--line2); }
+#s07 .s07-half .cl .tk i.a { background:var(--acc); }
+#s07 .s07-half .cl .tk i.o { background:#F7A15F; }
+#s07 .s07-half .cl s { position:absolute; right:20px; top:3px; width:24px; height:24px; border-radius:50%; background:var(--accDim); display:flex; align-items:center; justify-content:center; text-decoration:none; }
+#s07 .s07-half .flow { position:absolute; left:36px; top:96px; width:568px; height:88px; }
+#s07 .s07-half .flow .ln { position:absolute; left:0; top:0; overflow:visible; }
+#s07 .s07-half .flow .ln path { fill:none; stroke:var(--acc); stroke-width:3; stroke-dasharray:4 10; stroke-linecap:round; }
+#s07 .s07-half .it { position:absolute; width:560px; height:64px; border-radius:16px; border:1.5px solid var(--line); background:#FFFFFF;
+  box-shadow:0 1px 2px rgba(15,23,42,.05), 0 8px 18px -8px rgba(15,23,42,.18); display:flex; align-items:center; gap:18px; padding:0 18px 0 22px; box-sizing:border-box; }
+#s07 .s07-half .it .nm { font-family:"MR"; font-weight:700; font-size:24px; color:var(--ink); white-space:nowrap; width:220px; }
+#s07 .s07-half .it .bar { display:block; flex:1; height:10px; border-radius:5px; background:var(--line2); }
+#s07 .s07-half .it .ok { width:32px; height:32px; border-radius:50%; border:1.5px solid var(--acc); background:var(--accDim); display:flex; align-items:center; justify-content:center; }
+#s07 .s07-core .ring { position:absolute; inset:0; border-radius:20px; border:2.5px solid #F47E2A; opacity:0; display:block; }
+#s07 .s07-seam { position:absolute; left:958px; top:390px; width:4px; height:380px; border-radius:2px; display:block;
+  background:linear-gradient(180deg, rgba(37,161,219,0), rgba(37,161,219,.55) 30%, rgba(255,255,255,.95) 50%, rgba(244,126,42,.55) 70%, rgba(244,126,42,0)); }
+#s07 .s07-core { position:absolute; left:896px; top:516px; width:128px; height:128px; }
+/* clay glyph holders inside UI slots */
+#s07 .s07-half .it .gl { position:relative; width:48px; height:48px; flex:none; display:block; }
+
+/* the people side's Decisions row: orange mirror of the routine rows */
+#s07 .s07-half .it.dec { border-color:rgba(244,126,42,.55); box-shadow:0 1px 2px rgba(15,23,42,.05), 0 10px 22px -8px rgba(244,126,42,.35); }
+/* three options in the bar's place (right-aligned like the routine checks); one is picked by hand on "decisions" */
+#s07 .s07-half .it.dec .opts { flex:1; display:flex; justify-content:flex-end; gap:16px; }
+#s07 .s07-half .it.dec .op { position:relative; width:56px; height:32px; border-radius:16px; border:2px solid #CBD5E1; background:#FFFFFF; box-sizing:border-box; display:flex; align-items:center; justify-content:center; }
+#s07 .s07-half .it.dec .op { box-shadow:0 4px 10px -6px rgba(15,23,42,.18); }
+#s07 .s07-half .it.dec .op .ring { position:absolute; inset:-4px; border-radius:20px; border:2.5px solid #F47E2A; opacity:0; display:block; }
+/* routine rows: blue fill inside the grey track, fills just before the check */
+#s07 .s07-half .it .bar { position:relative; overflow:hidden; }
+#s07 .s07-half .it .bar .fill { position:absolute; inset:0; border-radius:5px; display:block; background:linear-gradient(90deg, var(--acc), var(--acc3)); transform-origin:0 50%; }
+/* card 2 strip: the same white pill as card 1 */
+#s07 .s07-pain .pill { position:absolute; inset:0; border-radius:22px; background:#FFFFFF; border:1.5px solid var(--line); box-shadow:0 6px 14px -8px rgba(15,23,42,.18); }
+#s07 .s07-pain .pill .chain { position:absolute; left:-1.5px; top:-1.5px; }
+#s07 .s07-pain .chain .gap { fill:none; stroke:#F47E2A; stroke-width:2.5; stroke-dasharray:3 9; stroke-linecap:round; }
