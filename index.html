@@ -306,9 +306,6 @@ small{font-size:max(12px,.75rem)}
   .draw{stroke-dashoffset:0!important}
 }
 @media print{.topbar,.dots,.progress,.lightbox{display:none!important}[data-reveal]{opacity:1!important;transform:none!important}}
-/* intro video = YouTube embed (subtitles uploaded on YouTube in EN / VI / JA); the caption language follows the page language */
-.yt{position:relative;width:100%;aspect-ratio:16/9;background:#0b1220;overflow:hidden}
-.yt iframe,.yt .yt-poster{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:cover;display:block}
 #proof.proof-wide{display:block!important;grid-template-columns:none!important}.proof-wide .sys-title{margin-bottom:12px}.ats-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.ats-item .shot{border-radius:14px;box-shadow:0 16px 36px -18px rgba(15,23,42,.35)}.ats-item h4{margin:14px 0 6px;font-size:1rem}.ats-item p{margin:0;font-size:.92rem;line-height:1.6;color:var(--muted,#475569)}@media (max-width:1000px){.ats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width:640px){.ats-grid{grid-template-columns:1fr}}.lightbox img{max-width:min(1920px,96vw)!important;max-height:90vh!important}
 </style>
 </head>
@@ -620,12 +617,6 @@ small{font-size:max(12px,.75rem)}
 #systems .always-on::after{content:"";position:absolute;right:-40px;top:-40px;width:160px;height:160px;border-radius:50%;border:2px dashed rgba(244,126,42,.35);animation:spin 24s linear infinite}
 @keyframes ao-glow{50%{filter:drop-shadow(0 0 28px rgba(244,126,42,.85))}}
 @media(max-width:599px){#systems .always-on{flex-direction:column;align-items:flex-start;gap:12px;padding:24px}#systems .always-on .ao-num{font-size:3rem}}
-/* Intro video: full-bleed, edge to edge */
-#intro-video .sec-head{margin-bottom:40px}
-#intro-video .vid{max-width:1280px;margin:0 auto;padding:0 16px;line-height:0}
-@media(min-width:600px){#intro-video .vid{padding:0 24px}}
-@media(min-width:1200px){#intro-video .vid{padding:0 40px}}
-#intro-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#000;border-radius:20px;box-shadow:0 30px 80px -20px rgba(0,0,0,.6)}
 /* No-copy: block selection, copy, right-click and image drag. Inputs stay usable. */
 html,body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 input,textarea,[contenteditable]{-webkit-user-select:text;user-select:text}
@@ -690,21 +681,6 @@ img,video{-webkit-user-drag:none;user-drag:none}
       <article class="card" data-reveal><span class="num-dot">1</span><p><span class="b"><span class="en">Technical and volume hiring:</span><span class="vi">Tuyển kỹ thuật và tuyển số lượng lớn:</span><span class="ja">技術職と大量採用：</span></span> <span class="en">from production operators and technicians to developers, QA, DevOps, tech leads and project managers, sourced via LinkedIn Recruiter, GitHub, developer communities and Google boolean X-ray.</span><span class="vi">từ công nhân sản xuất, kỹ thuật viên tới lập trình viên, QA, DevOps, tech lead và quản lý dự án; tôi tìm ứng viên qua LinkedIn Recruiter, GitHub, cộng đồng lập trình viên và Google boolean X-ray.</span><span class="ja">製造オペレーター・技術者から開発者、QA、DevOps、テックリード、プロジェクトマネージャーまで。LinkedIn Recruiter、GitHub、開発者コミュニティ、Google Boolean X-rayで探索。</span></p></article>
       <article class="card" data-reveal style="--i:1"><span class="num-dot">2</span><p><span class="b"><span class="en">A repeatable process:</span><span class="vi">Quy trình chuẩn hoá, áp dụng nhất quán:</span><span class="ja">再現性のあるプロセス：</span></span> <span class="en">my own 23-step workflow with checklists, metrics and a report at every milestone, continuing through the probation period.</span><span class="vi">quy trình 23 bước do tôi tự xây dựng, có checklist, chỉ số và báo cáo ở từng mốc, theo sát ứng viên tới hết thời gian thử việc.</span><span class="ja">チェックリスト、KPI、各マイルストーンでの報告を備えた独自の23ステップの手順で、試用期間終了まで伴走。</span></p></article>
       <article class="card" data-reveal style="--i:2"><span class="num-dot">3</span><p><span class="b"><span class="en">AI recruiting systems:</span><span class="vi">Hệ thống AI tuyển dụng:</span><span class="ja">AI採用システム：</span></span> <span class="en">I designed and run an AI agent that sources candidates, replies to them and scores their fit, with a manager approving every change.</span><span class="vi">tôi thiết kế và vận hành AI agent tự tìm kiếm, trả lời và chấm điểm ứng viên; mọi thay đổi đều được quản lý phê duyệt.</span><span class="ja">候補者の発掘、返信、評価を行うAIエージェントを設計・運用。変更はすべて管理者の承認制。</span></p></article>
-    </div>
-  </div>
-</section>
-
-<!-- ================= INTRO VIDEO ================= -->
-<section id="intro-video" class="sec sec--dark" aria-label="Introduction video">
-  <div class="wrap">
-    <header class="sec-head" data-reveal>
-      <span class="eyebrow"><span class="en">A short video hello</span><span class="vi">Video giới thiệu</span><span class="ja">動画でのご挨拶</span></span>
-      <h2 class="h2"><span class="en">How I can help <span class="hl">your team hire well</span></span><span class="vi">Tôi có thể <span class="hl">đồng hành cùng doanh nghiệp bạn</span> như thế nào</span><span class="ja">貴社の採用に、<span class="hl">私がお役に立てること</span></span></h2>
-    </header>
-  </div>
-  <div class="vid">
-    <div class="yt" id="introYT" data-yt-id="iaP_o09d0CY">
-      <img class="yt-poster" src="introduction-thumbnail.jpg" alt="Introduction video" loading="lazy">
     </div>
   </div>
 </section>
@@ -1117,25 +1093,6 @@ img,video{-webkit-user-drag:none;user-drag:none}
       if(!editable(e.target)){e.preventDefault();e.stopPropagation()}
     }
   },true);
-})();
-</script>
-<script>
-(function(){
-  /* paste the YouTube video id into data-yt-id (the part after v= in the YouTube link) */
-  var box=document.getElementById('introYT'); if(!box) return;
-  var id=(box.dataset.ytId||'').trim(); if(!id) return;
-  var root=document.documentElement;
-  function mount(){
-    var lang=(root.dataset.lang||'en').slice(0,2);
-    var src='https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id)+'?rel=0&modestbranding=1&playsinline=1&cc_load_policy=1&cc_lang_pref='+lang+'&hl='+lang;
-    var f=box.querySelector('iframe');
-    if(f){ if(f.dataset.lang===lang) return; f.src=src; f.dataset.lang=lang; return; }
-    f=document.createElement('iframe'); f.src=src; f.dataset.lang=lang; f.title='Introduction video';
-    f.allow='accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen'; f.allowFullscreen=true; f.loading='lazy';
-    box.innerHTML=''; box.appendChild(f);
-  }
-  mount();
-  new MutationObserver(mount).observe(root,{attributes:true,attributeFilter:['data-lang']});
 })();
 </script>
 </body>
